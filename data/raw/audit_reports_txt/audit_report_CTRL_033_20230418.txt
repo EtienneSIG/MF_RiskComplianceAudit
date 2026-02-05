@@ -1,0 +1,18 @@
+Control ID: CTRL_033
+Control Name: Financial Reporting Controls - Operational
+Audit Date: 2023-04-18
+Framework: SOX
+Auditor: David Brown
+
+FINDINGS:
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- System access logs not reviewed for 4 days
+- Evidence documentation incomplete for 5 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_033 has significant deficiencies and requires immediate remediation to meet SOX requirements.

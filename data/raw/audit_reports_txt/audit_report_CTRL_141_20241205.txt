@@ -1,0 +1,23 @@
+Control ID: CTRL_141
+Control Name: Penetration Testing - Payment Security
+Audit Date: 2024-12-05
+Framework: PCI-DSS
+Auditor: Iris Taylor
+
+FINDINGS:
+- Evidence documentation incomplete for 7 instances
+- Missing approvals for 1 control activities
+- Evidence documentation incomplete for 8 instances
+- System access logs not reviewed for 1 days
+- Segregation of duties violation detected in 4 cases
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_141 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

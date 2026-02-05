@@ -1,0 +1,101 @@
+vendor_id,vendor_name,service_type,criticality,compliance_status,annual_spend_usd,last_audit_date,risk_score,country
+VND_001,"Rodriguez, Figueroa and Sanchez",Cloud Provider,medium,compliant,68024,2024-07-05,31,UK
+VND_002,Doyle Ltd,Logistics,medium,partial,85741,2024-12-02,31,Germany
+VND_003,"Mcclain, Miller and Henderson",Logistics,critical,compliant,2451701,2023-10-09,70,USA
+VND_004,Davis and Sons,Payment Processor,medium,partial,95962,2023-09-09,61,UK
+VND_005,"Guzman, Hoffman and Baldwin",Cloud Provider,high,compliant,103407,2023-02-11,58,Singapore
+VND_006,"Gardner, Robinson and Lawrence",Data Processing,high,compliant,212886,2023-02-11,58,USA
+VND_007,Blake and Sons,Data Processing,critical,compliant,3385309,2023-07-11,70,USA
+VND_008,"Henderson, Ramirez and Lewis",Logistics,medium,compliant,74807,2024-12-02,16,France
+VND_009,Garcia-James,Cloud Provider,low,partial,33700,2023-08-10,53,Singapore
+VND_010,Abbott-Munoz,Cloud Provider,critical,partial,2927562,2024-12-02,55,USA
+VND_011,Blair PLC,Data Processing,high,compliant,291277,2024-09-03,28,France
+VND_012,Dudley Group,IT Services,high,compliant,458375,2023-06-11,58,India
+VND_013,Arnold Ltd,Payment Processor,medium,compliant,66043,2024-09-03,16,Germany
+VND_014,"Mcclure, Ward and Lee",Cloud Provider,high,non_compliant,460795,2023-09-09,88,Singapore
+VND_015,Williams and Sons,IT Services,high,partial,129327,2024-07-05,58,France
+VND_016,Galloway-Wyatt,Data Processing,high,compliant,397365,2023-04-12,58,UK
+VND_017,James Group,Cloud Provider,medium,compliant,92129,2023-12-08,46,France
+VND_018,"Flowers, Martin and Kelly",Logistics,critical,partial,2704036,2023-03-13,85,Germany
+VND_019,"Adams, Zuniga and Wong",Logistics,low,compliant,24373,2024-10-03,8,Germany
+VND_020,"Reid, Ferguson and Sanchez",HR Services,critical,compliant,1419803,2024-10-03,40,UK
+VND_021,Gray-Mayo,Payment Processor,medium,compliant,54163,2024-02-06,31,India
+VND_022,"Watts, Robinson and Nguyen",HR Services,low,compliant,46256,2025-01-31,8,Singapore
+VND_023,Perez Inc,HR Services,critical,non_compliant,2738291,2023-02-11,100,France
+VND_024,Morales-Jones,HR Services,critical,compliant,4306110,2025-01-31,40,Singapore
+VND_025,"Walter, Edwards and Rios",IT Services,high,compliant,193665,2023-10-09,58,Singapore
+VND_026,Wilkerson-Day,Cloud Provider,high,partial,419275,2024-08-04,43,France
+VND_027,Baker and Sons,Logistics,medium,compliant,84757,2025-01-31,16,France
+VND_028,"Hoffman, Baker and Richards",Cloud Provider,medium,compliant,73788,2024-05-06,31,USA
+VND_029,"Ross, Robinson and Bright",HR Services,high,compliant,141291,2024-12-02,28,Germany
+VND_030,"Snyder, Campos and Callahan",Cloud Provider,low,non_compliant,44911,2023-02-11,68,UK
+VND_031,Burton Ltd,Logistics,medium,non_compliant,60821,2024-06-05,61,India
+VND_032,Carlson-Cruz,HR Services,high,compliant,382746,2023-02-11,58,Singapore
+VND_033,"Ferrell, Rice and Maddox",Data Processing,high,compliant,452157,2023-06-11,58,Germany
+VND_034,Frazier Inc,IT Services,low,compliant,26246,2024-07-05,23,France
+VND_035,"Dyer, Potter and Mack",IT Services,critical,compliant,2347317,2025-01-31,40,Singapore
+VND_036,Rodriguez-Graham,IT Services,medium,compliant,52058,2024-04-06,31,India
+VND_037,Smith-Bowen,Cloud Provider,high,partial,212321,2023-09-09,73,Singapore
+VND_038,"Baker, Mason and White",Payment Processor,low,compliant,40976,2024-07-05,23,Germany
+VND_039,Harrell LLC,Payment Processor,high,compliant,325994,2024-03-07,43,Germany
+VND_040,"Romero, Gonzalez and Brooks",HR Services,medium,partial,94129,2023-06-11,61,USA
+VND_041,Ryan PLC,Cloud Provider,critical,partial,1416615,2024-07-05,70,UK
+VND_042,George Group,Payment Processor,medium,compliant,62025,2024-06-05,31,UK
+VND_043,Rodriguez LLC,IT Services,low,compliant,46066,2024-11-02,8,Singapore
+VND_044,Allen-Allen,Cloud Provider,low,partial,16112,2023-02-11,53,UK
+VND_045,"Arroyo, Miller and Tucker",Cloud Provider,high,compliant,310260,2025-01-01,28,Germany
+VND_046,Spence PLC,Payment Processor,critical,compliant,4316886,2024-05-06,55,Singapore
+VND_047,Anderson Group,HR Services,low,non_compliant,46422,2023-05-12,68,Germany
+VND_048,"Martin, Rose and Obrien",HR Services,high,compliant,130662,2023-08-10,58,India
+VND_049,Hickman Ltd,Payment Processor,critical,compliant,920624,2023-08-10,70,India
+VND_050,"Harris, Collins and Carney",IT Services,low,compliant,13727,2023-10-09,38,UK
+VND_051,"Brooks, Lam and Hayes",IT Services,critical,compliant,2473033,2024-02-06,55,India
+VND_052,Walker LLC,Payment Processor,high,compliant,424734,2024-12-02,28,Singapore
+VND_053,Chapman and Sons,HR Services,medium,compliant,67089,2024-08-04,16,Singapore
+VND_054,"Robinson, Jones and Welch",HR Services,high,compliant,168617,2023-05-12,58,France
+VND_055,Jones Inc,Payment Processor,medium,non_compliant,54754,2025-01-31,46,India
+VND_056,Jones-Young,Cloud Provider,low,non_compliant,14801,2023-09-09,68,India
+VND_057,"Washington, Ryan and Cummings",Data Processing,high,non_compliant,136066,2024-07-05,73,France
+VND_058,"Johnston, Sanchez and Kennedy",Logistics,high,partial,468857,2024-05-06,58,Singapore
+VND_059,Lee-Davis,HR Services,medium,partial,86346,2024-05-06,46,USA
+VND_060,Gomez-Jenkins,HR Services,low,compliant,17564,2024-11-02,8,India
+VND_061,"Brown, Valdez and Lucas",Data Processing,high,compliant,210430,2023-04-12,58,UK
+VND_062,Powell LLC,Data Processing,medium,non_compliant,83122,2023-11-08,76,USA
+VND_063,Wright and Sons,IT Services,critical,compliant,2820961,2025-01-01,40,France
+VND_064,"West, Henderson and Ramirez",HR Services,medium,partial,67167,2024-09-03,31,Germany
+VND_065,Baxter Inc,IT Services,medium,compliant,50633,2024-11-02,16,Singapore
+VND_066,Morton-Chase,Logistics,low,compliant,34196,2023-08-10,38,UK
+VND_067,Williams PLC,Data Processing,high,compliant,291182,2025-01-01,28,UK
+VND_068,Novak and Sons,Logistics,medium,partial,73178,2023-02-11,61,Germany
+VND_069,Russell Group,Cloud Provider,low,partial,25514,2024-09-03,23,Germany
+VND_070,Hancock Inc,HR Services,critical,partial,3286573,2024-01-07,85,Singapore
+VND_071,Gray Group,IT Services,low,compliant,17084,2024-02-06,23,Germany
+VND_072,House-Glover,Data Processing,high,partial,341331,2024-03-07,58,UK
+VND_073,Henderson-Bernard,Data Processing,high,partial,308910,2024-04-06,58,USA
+VND_074,"Stanley, Tucker and Lee",HR Services,low,compliant,43384,2024-02-06,23,India
+VND_075,Novak PLC,Logistics,high,compliant,236951,2024-09-03,28,France
+VND_076,"Daniels, Adkins and Brown",Data Processing,critical,compliant,3399833,2023-03-13,70,Germany
+VND_077,"Woods, Calhoun and Schmidt",Cloud Provider,medium,compliant,75244,2023-08-10,46,France
+VND_078,Yu Inc,HR Services,critical,compliant,4861407,2023-09-09,70,Singapore
+VND_079,Jones Inc,Payment Processor,low,partial,22912,2024-03-07,38,USA
+VND_080,"Hensley, Powell and David",IT Services,low,non_compliant,30572,2023-05-12,68,Singapore
+VND_081,"Sanchez, Wheeler and Harvey",Payment Processor,low,compliant,36764,2024-04-06,23,Singapore
+VND_082,Sandoval-Cunningham,Payment Processor,high,compliant,320434,2023-05-12,58,Singapore
+VND_083,Donovan-Harris,Payment Processor,medium,compliant,87296,2024-05-06,31,India
+VND_084,"Edwards, Baker and Anderson",Logistics,low,compliant,23774,2024-01-07,38,India
+VND_085,"Evans, Stewart and Walton",Cloud Provider,medium,compliant,78977,2023-05-12,46,India
+VND_086,Smith PLC,HR Services,medium,non_compliant,98231,2024-09-03,46,USA
+VND_087,"Ferrell, Jones and Lewis",IT Services,high,partial,424671,2024-04-06,58,UK
+VND_088,Anderson-Bailey,IT Services,medium,compliant,63050,2024-10-03,16,USA
+VND_089,Suarez LLC,Payment Processor,high,compliant,138182,2023-12-08,58,Singapore
+VND_090,Moore-Bass,Payment Processor,medium,partial,75164,2023-11-08,61,UK
+VND_091,"Turner, Riggs and Roman",Payment Processor,critical,partial,1394119,2023-02-11,85,UK
+VND_092,"Smith, Montoya and Evans",IT Services,high,non_compliant,371559,2023-12-08,88,India
+VND_093,"Garcia, Humphrey and Baker",Payment Processor,high,partial,339317,2024-10-03,43,Singapore
+VND_094,Newton and Sons,Payment Processor,medium,compliant,70794,2023-02-11,46,India
+VND_095,Campbell-Clark,Payment Processor,low,non_compliant,37966,2023-09-09,68,UK
+VND_096,Harris-Walters,Cloud Provider,medium,compliant,66986,2023-02-11,46,Singapore
+VND_097,Wagner-King,Cloud Provider,high,partial,354068,2023-06-11,73,France
+VND_098,Davis Group,Data Processing,high,partial,222942,2024-06-05,58,France
+VND_099,Williams-Cook,Payment Processor,low,compliant,19884,2024-07-05,23,Singapore
+VND_100,Walsh LLC,Data Processing,high,compliant,317510,2024-01-07,58,India

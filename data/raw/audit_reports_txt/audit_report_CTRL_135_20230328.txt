@@ -1,0 +1,18 @@
+Control ID: CTRL_135
+Control Name: Cardholder Data Encryption - Payment Security
+Audit Date: 2023-03-28
+Framework: PCI-DSS
+Auditor: Alice Smith
+
+FINDINGS:
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_135 requires minor improvements to fully comply with PCI-DSS standards.

@@ -1,0 +1,22 @@
+Control ID: CTRL_142
+Control Name: Cardholder Data Encryption - Payment Security
+Audit Date: 2023-07-21
+Framework: PCI-DSS
+Auditor: Alice Smith
+
+FINDINGS:
+- Evidence documentation incomplete for 2 instances
+- System access logs not reviewed for 14 days
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Missing approvals for 7 control activities
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_142 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

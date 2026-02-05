@@ -1,0 +1,27 @@
+Incident ID: INC_00000090
+Date: 2024-11-17 00:00:00
+Severity: medium
+Type: data_breach
+
+DESCRIPTION:
+On 2024-11-17 00:00:00, a data breach was detected in the Finance department. Unauthorized access was gained to customer databases containing personally identifiable information (PII). The breach was discovered during routine security monitoring when anomalous access patterns were detected. Initial investigation suggests the breach occurred due to compromised employee credentials. Approximately 466 customer records may have been exposed.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $224,408 USD
+- Severity Level: MEDIUM
+- Affected Department: Finance
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Insufficient access controls and authentication mechanisms
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

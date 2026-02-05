@@ -1,0 +1,16 @@
+Control ID: CTRL_100
+Control Name: Incident Management - Access Control
+Audit Date: 2023-10-08
+Framework: ISO27001
+Auditor: Frank Miller
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_100 is operating effectively and meets ISO27001 compliance requirements.

@@ -1,0 +1,22 @@
+Control ID: CTRL_085
+Control Name: Vulnerability Management - Security
+Audit Date: 2024-12-27
+Framework: ISO27001
+Auditor: Frank Miller
+
+FINDINGS:
+- Evidence documentation incomplete for 6 instances
+- Segregation of duties violation detected in 1 cases
+- Segregation of duties violation detected in 3 cases
+- Segregation of duties violation detected in 5 cases
+- Missing approvals for 3 control activities
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_085 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

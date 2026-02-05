@@ -1,0 +1,20 @@
+Control ID: CTRL_065
+Control Name: Data Retention - Privacy
+Audit Date: 2023-11-30
+Framework: GDPR
+Auditor: Frank Miller
+
+FINDINGS:
+- Evidence documentation incomplete for 9 instances
+- Evidence documentation incomplete for 6 instances
+- Missing approvals for 2 control activities
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Enhance evidence collection and retention procedures
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_065 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

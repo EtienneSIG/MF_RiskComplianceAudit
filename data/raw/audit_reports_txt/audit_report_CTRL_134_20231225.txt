@@ -1,0 +1,16 @@
+Control ID: CTRL_134
+Control Name: Cardholder Data Encryption - Network Security
+Audit Date: 2023-12-25
+Framework: PCI-DSS
+Auditor: Jack Anderson
+
+FINDINGS:
+- Segregation of duties violation detected in 3 cases
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_134 requires minor improvements to fully comply with PCI-DSS standards.

@@ -1,0 +1,27 @@
+Incident ID: INC_00000033
+Date: 2023-11-08 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-11-08 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Emma Davis. The Marketing department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $15,237 USD
+- Severity Level: MEDIUM
+- Affected Department: Marketing
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Insufficient access controls and authentication mechanisms
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

@@ -1,0 +1,19 @@
+Control ID: CTRL_105
+Control Name: Incident Management - Access Control
+Audit Date: 2023-06-15
+Framework: ISO27001
+Auditor: Frank Miller
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+- Provide additional training to control owners
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_105 is operating effectively and meets ISO27001 compliance requirements.

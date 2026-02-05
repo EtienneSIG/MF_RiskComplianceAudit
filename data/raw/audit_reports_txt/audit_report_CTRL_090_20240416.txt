@@ -1,0 +1,19 @@
+Control ID: CTRL_090
+Control Name: Backup Procedures - Security
+Audit Date: 2024-04-16
+Framework: ISO27001
+Auditor: Henry Moore
+
+FINDINGS:
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Missing approvals for 7 control activities
+- Segregation of duties violation detected in 2 cases
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_090 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

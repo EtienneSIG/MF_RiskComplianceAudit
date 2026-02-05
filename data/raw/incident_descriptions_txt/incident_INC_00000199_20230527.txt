@@ -1,0 +1,27 @@
+Incident ID: INC_00000199
+Date: 2023-05-27 00:00:00
+Severity: low
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Valentine-Holland was reported on 2023-05-27 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides logistics and has access to customer data. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $351,206 USD
+- Severity Level: LOW
+- Affected Department: Legal
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

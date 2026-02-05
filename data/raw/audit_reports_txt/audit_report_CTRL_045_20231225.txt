@@ -1,0 +1,20 @@
+Control ID: CTRL_045
+Control Name: Journal Entry Review - Operational
+Audit Date: 2023-12-25
+Framework: SOX
+Auditor: Alice Smith
+
+FINDINGS:
+- System access logs not reviewed for 6 days
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- System access logs not reviewed for 10 days
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_045 has significant deficiencies and requires immediate remediation to meet SOX requirements.

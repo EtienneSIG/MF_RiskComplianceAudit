@@ -1,0 +1,21 @@
+Control ID: CTRL_129
+Control Name: Physical Security - Network Security
+Audit Date: 2024-07-28
+Framework: PCI-DSS
+Auditor: Carol Williams
+
+FINDINGS:
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_129 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

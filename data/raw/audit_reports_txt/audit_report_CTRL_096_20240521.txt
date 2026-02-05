@@ -1,0 +1,19 @@
+Control ID: CTRL_096
+Control Name: Security Awareness - Access Control
+Audit Date: 2024-05-21
+Framework: ISO27001
+Auditor: Henry Moore
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+- Provide additional training to control owners
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_096 is operating effectively and meets ISO27001 compliance requirements.

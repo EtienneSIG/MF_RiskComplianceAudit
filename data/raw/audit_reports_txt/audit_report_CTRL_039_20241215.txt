@@ -1,0 +1,19 @@
+Control ID: CTRL_039
+Control Name: Financial Reporting Controls - Financial
+Audit Date: 2024-12-15
+Framework: SOX
+Auditor: Henry Moore
+
+FINDINGS:
+- Segregation of duties violation detected in 4 cases
+- Evidence documentation incomplete for 3 instances
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_039 has significant deficiencies and requires immediate remediation to meet SOX requirements.

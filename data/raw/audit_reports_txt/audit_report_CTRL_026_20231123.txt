@@ -1,0 +1,21 @@
+Control ID: CTRL_026
+Control Name: Journal Entry Review - Operational
+Audit Date: 2023-11-23
+Framework: SOX
+Auditor: David Brown
+
+FINDINGS:
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Evidence documentation incomplete for 5 instances
+- Segregation of duties violation detected in 4 cases
+- Control execution frequency not aligned with policy (daily vs expected daily)
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_026 has significant deficiencies and requires immediate remediation to meet SOX requirements.

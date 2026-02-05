@@ -1,0 +1,20 @@
+Control ID: CTRL_030
+Control Name: Journal Entry Review - Operational
+Audit Date: 2024-08-06
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 5 cases
+- System access logs not reviewed for 9 days
+- Missing approvals for 7 control activities
+- Segregation of duties violation detected in 2 cases
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_030 has significant deficiencies and requires immediate remediation to meet SOX requirements.

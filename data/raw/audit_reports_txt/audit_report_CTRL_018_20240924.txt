@@ -1,0 +1,21 @@
+Control ID: CTRL_018
+Control Name: Journal Entry Review - Operational
+Audit Date: 2024-09-24
+Framework: SOX
+Auditor: Henry Moore
+
+FINDINGS:
+- Evidence documentation incomplete for 3 instances
+- Evidence documentation incomplete for 3 instances
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_018 has significant deficiencies and requires immediate remediation to meet SOX requirements.

@@ -1,0 +1,17 @@
+Control ID: CTRL_009
+Control Name: Revenue Recognition - Financial
+Audit Date: 2024-08-03
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_009 is operating effectively and meets SOX compliance requirements.

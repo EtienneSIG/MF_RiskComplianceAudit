@@ -1,0 +1,27 @@
+Incident ID: INC_00000079
+Date: 2024-01-30 00:00:00
+Severity: low
+Type: access_violation
+
+DESCRIPTION:
+An access violation was identified on 2024-01-30 00:00:00 when user Cynthia Wells attempted to access restricted financial systems without proper authorization. The incident was flagged by the access control system and immediately blocked. Review of access logs indicates this may be part of a pattern of unauthorized access attempts. The user's account has been temporarily suspended pending investigation.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $18,573 USD
+- Severity Level: LOW
+- Affected Department: Sales
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Inadequate segregation of duties
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

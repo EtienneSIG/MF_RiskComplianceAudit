@@ -1,0 +1,27 @@
+Incident ID: INC_00000106
+Date: 2023-03-18 00:00:00
+Severity: low
+Type: data_breach
+
+DESCRIPTION:
+On 2023-03-18 00:00:00, a data breach was detected in the HR department. Unauthorized access was gained to customer databases containing personally identifiable information (PII). The breach was discovered during routine security monitoring when anomalous access patterns were detected. Initial investigation suggests the breach occurred due to compromised employee credentials. Approximately 1282 customer records may have been exposed.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $188,360 USD
+- Severity Level: LOW
+- Affected Department: HR
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

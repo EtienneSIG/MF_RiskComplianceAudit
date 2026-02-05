@@ -1,0 +1,27 @@
+Incident ID: INC_00000087
+Date: 2024-07-29 00:00:00
+Severity: high
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Charles, Cortez and Evans was reported on 2024-07-29 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides data analytics and has access to financial records. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $350,908 USD
+- Severity Level: HIGH
+- Affected Department: Marketing
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Missing or ineffective monitoring and alerting
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

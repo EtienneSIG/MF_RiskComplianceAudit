@@ -1,0 +1,21 @@
+Control ID: CTRL_069
+Control Name: Data Breach Notification - Data Security
+Audit Date: 2024-02-02
+Framework: GDPR
+Auditor: Grace Wilson
+
+FINDINGS:
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Segregation of duties violation detected in 4 cases
+- System access logs not reviewed for 6 days
+- Evidence documentation incomplete for 6 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_069 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

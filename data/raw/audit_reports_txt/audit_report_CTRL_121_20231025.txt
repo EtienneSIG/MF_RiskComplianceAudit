@@ -1,0 +1,18 @@
+Control ID: CTRL_121
+Control Name: Vulnerability Management - Access Control
+Audit Date: 2023-10-25
+Framework: ISO27001
+Auditor: Jack Anderson
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_121 is operating effectively and meets ISO27001 compliance requirements.

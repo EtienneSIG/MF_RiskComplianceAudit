@@ -1,0 +1,18 @@
+Control ID: CTRL_074
+Control Name: Consent Management - Data Security
+Audit Date: 2023-10-31
+Framework: GDPR
+Auditor: David Brown
+
+FINDINGS:
+- Evidence documentation incomplete for 5 instances
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_074 requires minor improvements to fully comply with GDPR standards.

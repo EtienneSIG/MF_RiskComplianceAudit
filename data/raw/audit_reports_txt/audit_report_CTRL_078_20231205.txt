@@ -1,0 +1,19 @@
+Control ID: CTRL_078
+Control Name: Consent Management - Data Security
+Audit Date: 2023-12-05
+Framework: GDPR
+Auditor: Jack Anderson
+
+FINDINGS:
+- Evidence documentation incomplete for 9 instances
+- Segregation of duties violation detected in 4 cases
+- Missing approvals for 1 control activities
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_078 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

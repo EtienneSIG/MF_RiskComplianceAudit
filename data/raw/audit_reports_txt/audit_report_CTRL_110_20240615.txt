@@ -1,0 +1,22 @@
+Control ID: CTRL_110
+Control Name: Access Control - Security
+Audit Date: 2024-06-15
+Framework: ISO27001
+Auditor: Jack Anderson
+
+FINDINGS:
+- Segregation of duties violation detected in 5 cases
+- Segregation of duties violation detected in 5 cases
+- Evidence documentation incomplete for 7 instances
+- Segregation of duties violation detected in 5 cases
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Provide additional training to control owners
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_110 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

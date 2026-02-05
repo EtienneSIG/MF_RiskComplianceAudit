@@ -1,0 +1,27 @@
+Incident ID: INC_00000018
+Date: 2024-04-05 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-04-05 00:00:00 regarding non-compliance with ISO27001 security requirements. The violation was discovered during a routine audit by Iris Taylor. The IT department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $13,538 USD
+- Severity Level: LOW
+- Affected Department: IT
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Outdated software with known vulnerabilities
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

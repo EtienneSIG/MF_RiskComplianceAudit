@@ -1,0 +1,19 @@
+Control ID: CTRL_106
+Control Name: Vulnerability Management - Access Control
+Audit Date: 2023-04-02
+Framework: ISO27001
+Auditor: Alice Smith
+
+FINDINGS:
+- Missing approvals for 8 control activities
+- Missing approvals for 6 control activities
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+- Provide additional training to control owners
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_106 requires minor improvements to fully comply with ISO27001 standards.

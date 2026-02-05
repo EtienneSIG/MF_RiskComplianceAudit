@@ -1,0 +1,150 @@
+control_id,control_name,framework,category,criticality,type,frequency,owner,description
+CTRL_001,Expense Approval - Operational,SOX,operational,high,preventive,monthly,Finance - Finance Manager,SOX control for operational compliance - preventive control executed monthly
+CTRL_002,Expense Approval - Operational,SOX,operational,high,corrective,daily,Marketing - Manager,SOX control for operational compliance - corrective control executed daily
+CTRL_003,Expense Approval - Operational,SOX,operational,high,detective,continuous,Marketing - Manager,SOX control for operational compliance - detective control executed continuous
+CTRL_004,Expense Approval - Operational,SOX,operational,low,corrective,weekly,Finance - CFO,SOX control for operational compliance - corrective control executed weekly
+CTRL_005,Expense Approval - Operational,SOX,operational,critical,detective,continuous,Sales - Manager,SOX control for operational compliance - detective control executed continuous
+CTRL_006,Expense Approval - Operational,SOX,operational,high,detective,weekly,HR - Manager,SOX control for operational compliance - detective control executed weekly
+CTRL_007,Segregation of Duties - Operational,SOX,operational,critical,detective,quarterly,Operations - Quality Manager,SOX control for operational compliance - detective control executed quarterly
+CTRL_008,Journal Entry Review - Financial,SOX,financial,medium,detective,monthly,Operations - COO,SOX control for financial compliance - detective control executed monthly
+CTRL_009,Revenue Recognition - Financial,SOX,financial,critical,preventive,monthly,Customer Support - Manager,SOX control for financial compliance - preventive control executed monthly
+CTRL_010,Segregation of Duties - Financial,SOX,financial,critical,detective,monthly,Legal - Compliance Officer,SOX control for financial compliance - detective control executed monthly
+CTRL_011,Segregation of Duties - Operational,SOX,operational,medium,corrective,monthly,Marketing - Manager,SOX control for operational compliance - corrective control executed monthly
+CTRL_012,Segregation of Duties - Operational,SOX,operational,medium,detective,daily,IT - Infrastructure Manager,SOX control for operational compliance - detective control executed daily
+CTRL_013,Expense Approval - Operational,SOX,operational,high,detective,weekly,Finance - Controller,SOX control for operational compliance - detective control executed weekly
+CTRL_014,Financial Reporting Controls - Operational,SOX,operational,critical,corrective,monthly,Legal - Compliance Officer,SOX control for operational compliance - corrective control executed monthly
+CTRL_015,Journal Entry Review - Operational,SOX,operational,medium,corrective,daily,Customer Support - Manager,SOX control for operational compliance - corrective control executed daily
+CTRL_016,Financial Reporting Controls - Financial,SOX,financial,high,corrective,monthly,HR - Manager,SOX control for financial compliance - corrective control executed monthly
+CTRL_017,Revenue Recognition - Operational,SOX,operational,medium,detective,monthly,Finance - Controller,SOX control for operational compliance - detective control executed monthly
+CTRL_018,Journal Entry Review - Operational,SOX,operational,critical,preventive,monthly,HR - Manager,SOX control for operational compliance - preventive control executed monthly
+CTRL_019,Expense Approval - Operational,SOX,operational,critical,corrective,continuous,Customer Support - Manager,SOX control for operational compliance - corrective control executed continuous
+CTRL_020,Expense Approval - Financial,SOX,financial,medium,detective,monthly,HR - Manager,SOX control for financial compliance - detective control executed monthly
+CTRL_021,Journal Entry Review - Operational,SOX,operational,medium,preventive,monthly,Sales - Manager,SOX control for operational compliance - preventive control executed monthly
+CTRL_022,Financial Reporting Controls - Operational,SOX,operational,high,detective,daily,Operations - COO,SOX control for operational compliance - detective control executed daily
+CTRL_023,Expense Approval - Financial,SOX,financial,high,detective,quarterly,Operations - COO,SOX control for financial compliance - detective control executed quarterly
+CTRL_024,Revenue Recognition - Operational,SOX,operational,high,detective,monthly,IT - CTO,SOX control for operational compliance - detective control executed monthly
+CTRL_025,Segregation of Duties - Financial,SOX,financial,high,preventive,continuous,HR - Manager,SOX control for financial compliance - preventive control executed continuous
+CTRL_026,Journal Entry Review - Operational,SOX,operational,medium,detective,daily,IT - CTO,SOX control for operational compliance - detective control executed daily
+CTRL_027,Segregation of Duties - Financial,SOX,financial,high,detective,weekly,HR - Manager,SOX control for financial compliance - detective control executed weekly
+CTRL_028,Journal Entry Review - Financial,SOX,financial,medium,detective,continuous,Legal - General Counsel,SOX control for financial compliance - detective control executed continuous
+CTRL_029,Expense Approval - Operational,SOX,operational,low,preventive,daily,Operations - Quality Manager,SOX control for operational compliance - preventive control executed daily
+CTRL_030,Journal Entry Review - Operational,SOX,operational,high,detective,quarterly,HR - Manager,SOX control for operational compliance - detective control executed quarterly
+CTRL_031,Financial Reporting Controls - Financial,SOX,financial,low,preventive,monthly,HR - Manager,SOX control for financial compliance - preventive control executed monthly
+CTRL_032,Revenue Recognition - Operational,SOX,operational,high,detective,daily,Customer Support - Manager,SOX control for operational compliance - detective control executed daily
+CTRL_033,Financial Reporting Controls - Operational,SOX,operational,critical,preventive,daily,IT - Infrastructure Manager,SOX control for operational compliance - preventive control executed daily
+CTRL_034,Journal Entry Review - Financial,SOX,financial,low,detective,monthly,Marketing - Manager,SOX control for financial compliance - detective control executed monthly
+CTRL_035,Financial Reporting Controls - Financial,SOX,financial,high,preventive,daily,IT - CTO,SOX control for financial compliance - preventive control executed daily
+CTRL_036,Expense Approval - Operational,SOX,operational,medium,detective,monthly,Customer Support - Manager,SOX control for operational compliance - detective control executed monthly
+CTRL_037,Journal Entry Review - Operational,SOX,operational,medium,detective,quarterly,Customer Support - Manager,SOX control for operational compliance - detective control executed quarterly
+CTRL_038,Financial Reporting Controls - Operational,SOX,operational,critical,detective,weekly,Finance - CFO,SOX control for operational compliance - detective control executed weekly
+CTRL_039,Financial Reporting Controls - Financial,SOX,financial,low,detective,monthly,HR - Manager,SOX control for financial compliance - detective control executed monthly
+CTRL_040,Segregation of Duties - Financial,SOX,financial,high,detective,quarterly,Marketing - Manager,SOX control for financial compliance - detective control executed quarterly
+CTRL_041,Expense Approval - Financial,SOX,financial,high,detective,weekly,Legal - Compliance Officer,SOX control for financial compliance - detective control executed weekly
+CTRL_042,Revenue Recognition - Financial,SOX,financial,medium,preventive,quarterly,Customer Support - Manager,SOX control for financial compliance - preventive control executed quarterly
+CTRL_043,Segregation of Duties - Financial,SOX,financial,high,preventive,monthly,Customer Support - Manager,SOX control for financial compliance - preventive control executed monthly
+CTRL_044,Revenue Recognition - Operational,SOX,operational,critical,preventive,monthly,Finance - CFO,SOX control for operational compliance - preventive control executed monthly
+CTRL_045,Journal Entry Review - Operational,SOX,operational,high,corrective,weekly,IT - CTO,SOX control for operational compliance - corrective control executed weekly
+CTRL_046,Data Subject Rights - Privacy,GDPR,privacy,medium,detective,weekly,Marketing - Manager,GDPR control for privacy compliance - detective control executed weekly
+CTRL_047,Data Breach Notification - Privacy,GDPR,privacy,low,corrective,weekly,Legal - Compliance Officer,GDPR control for privacy compliance - corrective control executed weekly
+CTRL_048,Data Retention - Data Security,GDPR,data_security,high,preventive,monthly,Operations - Operations Manager,GDPR control for data_security compliance - preventive control executed monthly
+CTRL_049,Privacy Impact Assessment - Privacy,GDPR,privacy,critical,preventive,monthly,IT - IT Security Manager,GDPR control for privacy compliance - preventive control executed monthly
+CTRL_050,Data Retention - Privacy,GDPR,privacy,high,detective,daily,HR - Manager,GDPR control for privacy compliance - detective control executed daily
+CTRL_051,Data Breach Notification - Data Security,GDPR,data_security,medium,detective,quarterly,Customer Support - Manager,GDPR control for data_security compliance - detective control executed quarterly
+CTRL_052,Data Subject Rights - Data Security,GDPR,data_security,medium,detective,weekly,Operations - Quality Manager,GDPR control for data_security compliance - detective control executed weekly
+CTRL_053,Privacy Impact Assessment - Privacy,GDPR,privacy,medium,preventive,monthly,Sales - Manager,GDPR control for privacy compliance - preventive control executed monthly
+CTRL_054,Data Subject Rights - Privacy,GDPR,privacy,high,detective,monthly,Customer Support - Manager,GDPR control for privacy compliance - detective control executed monthly
+CTRL_055,Privacy Impact Assessment - Data Security,GDPR,data_security,high,detective,quarterly,IT - Infrastructure Manager,GDPR control for data_security compliance - detective control executed quarterly
+CTRL_056,Data Breach Notification - Privacy,GDPR,privacy,critical,preventive,quarterly,IT - IT Security Manager,GDPR control for privacy compliance - preventive control executed quarterly
+CTRL_057,Privacy Impact Assessment - Data Security,GDPR,data_security,high,detective,monthly,Marketing - Manager,GDPR control for data_security compliance - detective control executed monthly
+CTRL_058,Consent Management - Data Security,GDPR,data_security,low,preventive,continuous,Operations - Quality Manager,GDPR control for data_security compliance - preventive control executed continuous
+CTRL_059,Data Breach Notification - Privacy,GDPR,privacy,high,preventive,monthly,Customer Support - Manager,GDPR control for privacy compliance - preventive control executed monthly
+CTRL_060,Privacy Impact Assessment - Data Security,GDPR,data_security,low,preventive,monthly,Sales - Manager,GDPR control for data_security compliance - preventive control executed monthly
+CTRL_061,Consent Management - Privacy,GDPR,privacy,critical,detective,monthly,Legal - General Counsel,GDPR control for privacy compliance - detective control executed monthly
+CTRL_062,Privacy Impact Assessment - Data Security,GDPR,data_security,medium,preventive,monthly,Legal - General Counsel,GDPR control for data_security compliance - preventive control executed monthly
+CTRL_063,Consent Management - Data Security,GDPR,data_security,medium,detective,monthly,HR - Manager,GDPR control for data_security compliance - detective control executed monthly
+CTRL_064,Data Breach Notification - Data Security,GDPR,data_security,high,preventive,monthly,HR - Manager,GDPR control for data_security compliance - preventive control executed monthly
+CTRL_065,Data Retention - Privacy,GDPR,privacy,critical,preventive,weekly,Marketing - Manager,GDPR control for privacy compliance - preventive control executed weekly
+CTRL_066,Data Retention - Data Security,GDPR,data_security,high,detective,continuous,HR - Manager,GDPR control for data_security compliance - detective control executed continuous
+CTRL_067,Data Retention - Data Security,GDPR,data_security,low,detective,quarterly,HR - Manager,GDPR control for data_security compliance - detective control executed quarterly
+CTRL_068,Consent Management - Data Security,GDPR,data_security,medium,preventive,daily,Legal - Data Protection Officer,GDPR control for data_security compliance - preventive control executed daily
+CTRL_069,Data Breach Notification - Data Security,GDPR,data_security,low,detective,weekly,Finance - Finance Manager,GDPR control for data_security compliance - detective control executed weekly
+CTRL_070,Data Subject Rights - Data Security,GDPR,data_security,medium,preventive,daily,Legal - General Counsel,GDPR control for data_security compliance - preventive control executed daily
+CTRL_071,Privacy Impact Assessment - Data Security,GDPR,data_security,medium,corrective,weekly,Legal - Compliance Officer,GDPR control for data_security compliance - corrective control executed weekly
+CTRL_072,Data Subject Rights - Privacy,GDPR,privacy,low,preventive,quarterly,Customer Support - Manager,GDPR control for privacy compliance - preventive control executed quarterly
+CTRL_073,Privacy Impact Assessment - Data Security,GDPR,data_security,medium,preventive,monthly,Sales - Manager,GDPR control for data_security compliance - preventive control executed monthly
+CTRL_074,Consent Management - Data Security,GDPR,data_security,critical,detective,weekly,Marketing - Manager,GDPR control for data_security compliance - detective control executed weekly
+CTRL_075,Consent Management - Data Security,GDPR,data_security,medium,detective,monthly,Operations - Quality Manager,GDPR control for data_security compliance - detective control executed monthly
+CTRL_076,Consent Management - Data Security,GDPR,data_security,medium,detective,monthly,IT - CTO,GDPR control for data_security compliance - detective control executed monthly
+CTRL_077,Data Subject Rights - Privacy,GDPR,privacy,low,preventive,weekly,Operations - Quality Manager,GDPR control for privacy compliance - preventive control executed weekly
+CTRL_078,Consent Management - Data Security,GDPR,data_security,high,preventive,quarterly,Legal - Compliance Officer,GDPR control for data_security compliance - preventive control executed quarterly
+CTRL_079,Data Breach Notification - Data Security,GDPR,data_security,medium,detective,quarterly,Finance - Finance Manager,GDPR control for data_security compliance - detective control executed quarterly
+CTRL_080,Data Breach Notification - Data Security,GDPR,data_security,high,detective,daily,IT - Infrastructure Manager,GDPR control for data_security compliance - detective control executed daily
+CTRL_081,Consent Management - Data Security,GDPR,data_security,high,corrective,weekly,HR - Manager,GDPR control for data_security compliance - corrective control executed weekly
+CTRL_082,Data Breach Notification - Privacy,GDPR,privacy,low,detective,continuous,Finance - CFO,GDPR control for privacy compliance - detective control executed continuous
+CTRL_083,Incident Management - Security,ISO27001,security,high,preventive,monthly,Operations - Quality Manager,ISO27001 control for security compliance - preventive control executed monthly
+CTRL_084,Incident Management - Security,ISO27001,security,medium,preventive,monthly,HR - Manager,ISO27001 control for security compliance - preventive control executed monthly
+CTRL_085,Vulnerability Management - Security,ISO27001,security,high,detective,daily,Legal - General Counsel,ISO27001 control for security compliance - detective control executed daily
+CTRL_086,Incident Management - Security,ISO27001,security,medium,preventive,weekly,HR - Manager,ISO27001 control for security compliance - preventive control executed weekly
+CTRL_087,Security Awareness - Access Control,ISO27001,access_control,medium,detective,monthly,Customer Support - Manager,ISO27001 control for access_control compliance - detective control executed monthly
+CTRL_088,Access Control - Security,ISO27001,security,medium,detective,daily,HR - Manager,ISO27001 control for security compliance - detective control executed daily
+CTRL_089,Access Control - Security,ISO27001,security,critical,detective,weekly,Customer Support - Manager,ISO27001 control for security compliance - detective control executed weekly
+CTRL_090,Backup Procedures - Security,ISO27001,security,low,preventive,daily,HR - Manager,ISO27001 control for security compliance - preventive control executed daily
+CTRL_091,Access Control - Access Control,ISO27001,access_control,low,detective,weekly,IT - Infrastructure Manager,ISO27001 control for access_control compliance - detective control executed weekly
+CTRL_092,Incident Management - Security,ISO27001,security,low,detective,monthly,Marketing - Manager,ISO27001 control for security compliance - detective control executed monthly
+CTRL_093,Vulnerability Management - Security,ISO27001,security,high,detective,weekly,Sales - Manager,ISO27001 control for security compliance - detective control executed weekly
+CTRL_094,Access Control - Access Control,ISO27001,access_control,medium,preventive,daily,IT - CTO,ISO27001 control for access_control compliance - preventive control executed daily
+CTRL_095,Security Awareness - Security,ISO27001,security,critical,preventive,monthly,Finance - Finance Manager,ISO27001 control for security compliance - preventive control executed monthly
+CTRL_096,Security Awareness - Access Control,ISO27001,access_control,medium,detective,weekly,Finance - Controller,ISO27001 control for access_control compliance - detective control executed weekly
+CTRL_097,Access Control - Security,ISO27001,security,high,preventive,weekly,Customer Support - Manager,ISO27001 control for security compliance - preventive control executed weekly
+CTRL_098,Security Awareness - Access Control,ISO27001,access_control,high,detective,daily,Operations - Operations Manager,ISO27001 control for access_control compliance - detective control executed daily
+CTRL_099,Incident Management - Security,ISO27001,security,low,detective,monthly,HR - Manager,ISO27001 control for security compliance - detective control executed monthly
+CTRL_100,Incident Management - Access Control,ISO27001,access_control,high,detective,quarterly,Finance - CFO,ISO27001 control for access_control compliance - detective control executed quarterly
+CTRL_101,Security Awareness - Security,ISO27001,security,medium,detective,daily,IT - Infrastructure Manager,ISO27001 control for security compliance - detective control executed daily
+CTRL_102,Security Awareness - Access Control,ISO27001,access_control,high,detective,weekly,HR - Manager,ISO27001 control for access_control compliance - detective control executed weekly
+CTRL_103,Backup Procedures - Security,ISO27001,security,medium,corrective,daily,IT - IT Security Manager,ISO27001 control for security compliance - corrective control executed daily
+CTRL_104,Access Control - Access Control,ISO27001,access_control,medium,detective,weekly,Operations - Quality Manager,ISO27001 control for access_control compliance - detective control executed weekly
+CTRL_105,Incident Management - Access Control,ISO27001,access_control,high,preventive,monthly,HR - Manager,ISO27001 control for access_control compliance - preventive control executed monthly
+CTRL_106,Vulnerability Management - Access Control,ISO27001,access_control,high,detective,continuous,Operations - COO,ISO27001 control for access_control compliance - detective control executed continuous
+CTRL_107,Backup Procedures - Access Control,ISO27001,access_control,high,preventive,weekly,Legal - General Counsel,ISO27001 control for access_control compliance - preventive control executed weekly
+CTRL_108,Access Control - Access Control,ISO27001,access_control,high,preventive,monthly,IT - IT Security Manager,ISO27001 control for access_control compliance - preventive control executed monthly
+CTRL_109,Backup Procedures - Access Control,ISO27001,access_control,high,detective,continuous,Marketing - Manager,ISO27001 control for access_control compliance - detective control executed continuous
+CTRL_110,Access Control - Security,ISO27001,security,high,detective,quarterly,Customer Support - Manager,ISO27001 control for security compliance - detective control executed quarterly
+CTRL_111,Vulnerability Management - Access Control,ISO27001,access_control,high,preventive,weekly,IT - IT Security Manager,ISO27001 control for access_control compliance - preventive control executed weekly
+CTRL_112,Security Awareness - Security,ISO27001,security,medium,preventive,monthly,IT - Infrastructure Manager,ISO27001 control for security compliance - preventive control executed monthly
+CTRL_113,Incident Management - Security,ISO27001,security,critical,detective,weekly,Operations - COO,ISO27001 control for security compliance - detective control executed weekly
+CTRL_114,Backup Procedures - Security,ISO27001,security,high,preventive,daily,Legal - Data Protection Officer,ISO27001 control for security compliance - preventive control executed daily
+CTRL_115,Backup Procedures - Access Control,ISO27001,access_control,high,detective,monthly,Sales - Manager,ISO27001 control for access_control compliance - detective control executed monthly
+CTRL_116,Security Awareness - Access Control,ISO27001,access_control,critical,detective,weekly,Finance - Controller,ISO27001 control for access_control compliance - detective control executed weekly
+CTRL_117,Access Control - Access Control,ISO27001,access_control,critical,detective,continuous,HR - Manager,ISO27001 control for access_control compliance - detective control executed continuous
+CTRL_118,Vulnerability Management - Security,ISO27001,security,medium,detective,weekly,Customer Support - Manager,ISO27001 control for security compliance - detective control executed weekly
+CTRL_119,Access Control - Access Control,ISO27001,access_control,medium,detective,quarterly,IT - IT Security Manager,ISO27001 control for access_control compliance - detective control executed quarterly
+CTRL_120,Vulnerability Management - Access Control,ISO27001,access_control,high,preventive,daily,Customer Support - Manager,ISO27001 control for access_control compliance - preventive control executed daily
+CTRL_121,Vulnerability Management - Access Control,ISO27001,access_control,high,preventive,weekly,Finance - Finance Manager,ISO27001 control for access_control compliance - preventive control executed weekly
+CTRL_122,Vulnerability Management - Access Control,ISO27001,access_control,critical,preventive,monthly,HR - Manager,ISO27001 control for access_control compliance - preventive control executed monthly
+CTRL_123,Security Awareness - Access Control,ISO27001,access_control,critical,detective,quarterly,Marketing - Manager,ISO27001 control for access_control compliance - detective control executed quarterly
+CTRL_124,Security Awareness - Access Control,ISO27001,access_control,medium,preventive,monthly,Legal - Data Protection Officer,ISO27001 control for access_control compliance - preventive control executed monthly
+CTRL_125,Incident Management - Security,ISO27001,security,critical,detective,weekly,Sales - Manager,ISO27001 control for security compliance - detective control executed weekly
+CTRL_126,Incident Management - Security,ISO27001,security,low,preventive,monthly,Operations - COO,ISO27001 control for security compliance - preventive control executed monthly
+CTRL_127,Security Awareness - Security,ISO27001,security,critical,detective,daily,Sales - Manager,ISO27001 control for security compliance - detective control executed daily
+CTRL_128,Key Management - Payment Security,PCI-DSS,payment_security,high,preventive,monthly,Customer Support - Manager,PCI-DSS control for payment_security compliance - preventive control executed monthly
+CTRL_129,Physical Security - Network Security,PCI-DSS,network_security,high,detective,quarterly,Customer Support - Manager,PCI-DSS control for network_security compliance - detective control executed quarterly
+CTRL_130,Key Management - Payment Security,PCI-DSS,payment_security,high,corrective,monthly,Sales - Manager,PCI-DSS control for payment_security compliance - corrective control executed monthly
+CTRL_131,Physical Security - Network Security,PCI-DSS,network_security,medium,detective,weekly,Legal - General Counsel,PCI-DSS control for network_security compliance - detective control executed weekly
+CTRL_132,Physical Security - Network Security,PCI-DSS,network_security,critical,preventive,monthly,IT - Infrastructure Manager,PCI-DSS control for network_security compliance - preventive control executed monthly
+CTRL_133,Key Management - Network Security,PCI-DSS,network_security,low,preventive,monthly,Customer Support - Manager,PCI-DSS control for network_security compliance - preventive control executed monthly
+CTRL_134,Cardholder Data Encryption - Network Security,PCI-DSS,network_security,critical,corrective,monthly,Finance - Controller,PCI-DSS control for network_security compliance - corrective control executed monthly
+CTRL_135,Cardholder Data Encryption - Payment Security,PCI-DSS,payment_security,high,preventive,weekly,Sales - Manager,PCI-DSS control for payment_security compliance - preventive control executed weekly
+CTRL_136,Cardholder Data Encryption - Network Security,PCI-DSS,network_security,high,preventive,monthly,Legal - General Counsel,PCI-DSS control for network_security compliance - preventive control executed monthly
+CTRL_137,Physical Security - Payment Security,PCI-DSS,payment_security,high,detective,monthly,Customer Support - Manager,PCI-DSS control for payment_security compliance - detective control executed monthly
+CTRL_138,Penetration Testing - Payment Security,PCI-DSS,payment_security,critical,preventive,daily,Marketing - Manager,PCI-DSS control for payment_security compliance - preventive control executed daily
+CTRL_139,Key Management - Network Security,PCI-DSS,network_security,high,preventive,daily,IT - CTO,PCI-DSS control for network_security compliance - preventive control executed daily
+CTRL_140,Key Management - Payment Security,PCI-DSS,payment_security,medium,preventive,weekly,Legal - Compliance Officer,PCI-DSS control for payment_security compliance - preventive control executed weekly
+CTRL_141,Penetration Testing - Payment Security,PCI-DSS,payment_security,critical,preventive,monthly,IT - Infrastructure Manager,PCI-DSS control for payment_security compliance - preventive control executed monthly
+CTRL_142,Cardholder Data Encryption - Payment Security,PCI-DSS,payment_security,critical,detective,weekly,Marketing - Manager,PCI-DSS control for payment_security compliance - detective control executed weekly
+CTRL_143,Penetration Testing - Payment Security,PCI-DSS,payment_security,medium,corrective,daily,Sales - Manager,PCI-DSS control for payment_security compliance - corrective control executed daily
+CTRL_144,Penetration Testing - Network Security,PCI-DSS,network_security,high,detective,daily,Legal - General Counsel,PCI-DSS control for network_security compliance - detective control executed daily
+CTRL_145,Network Segmentation - Network Security,PCI-DSS,network_security,high,detective,daily,Customer Support - Manager,PCI-DSS control for network_security compliance - detective control executed daily
+CTRL_146,Network Segmentation - Network Security,PCI-DSS,network_security,critical,detective,weekly,Operations - COO,PCI-DSS control for network_security compliance - detective control executed weekly
+CTRL_147,Cardholder Data Encryption - Network Security,PCI-DSS,network_security,low,preventive,weekly,Customer Support - Manager,PCI-DSS control for network_security compliance - preventive control executed weekly
+CTRL_148,Cardholder Data Encryption - Payment Security,PCI-DSS,payment_security,medium,preventive,weekly,Sales - Manager,PCI-DSS control for payment_security compliance - preventive control executed weekly
+CTRL_149,Network Segmentation - Network Security,PCI-DSS,network_security,medium,detective,weekly,Marketing - Manager,PCI-DSS control for network_security compliance - detective control executed weekly

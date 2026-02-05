@@ -1,0 +1,27 @@
+Incident ID: INC_00000109
+Date: 2023-07-08 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-07-08 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by Carol Williams. The Operations department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $10,616 USD
+- Severity Level: MEDIUM
+- Affected Department: Operations
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

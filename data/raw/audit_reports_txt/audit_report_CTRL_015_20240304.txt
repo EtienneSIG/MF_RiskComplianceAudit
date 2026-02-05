@@ -1,0 +1,20 @@
+Control ID: CTRL_015
+Control Name: Journal Entry Review - Operational
+Audit Date: 2024-03-04
+Framework: SOX
+Auditor: Henry Moore
+
+FINDINGS:
+- Missing approvals for 5 control activities
+- System access logs not reviewed for 10 days
+- System access logs not reviewed for 1 days
+- Missing approvals for 1 control activities
+- Segregation of duties violation detected in 3 cases
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_015 has significant deficiencies and requires immediate remediation to meet SOX requirements.

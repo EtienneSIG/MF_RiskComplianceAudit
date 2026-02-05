@@ -1,0 +1,27 @@
+Incident ID: INC_00000190
+Date: 2024-02-21 00:00:00
+Severity: critical
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-02-21 00:00:00 regarding non-compliance with GDPR data retention requirements. The violation was discovered during a routine audit by Grace Wilson. The Finance department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $10,969 USD
+- Severity Level: CRITICAL
+- Affected Department: Finance
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

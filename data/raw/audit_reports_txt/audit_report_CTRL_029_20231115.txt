@@ -1,0 +1,22 @@
+Control ID: CTRL_029
+Control Name: Expense Approval - Operational
+Audit Date: 2023-11-15
+Framework: SOX
+Auditor: Alice Smith
+
+FINDINGS:
+- Missing approvals for 3 control activities
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Evidence documentation incomplete for 5 instances
+- System access logs not reviewed for 11 days
+- Control execution frequency not aligned with policy (daily vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Strengthen segregation of duties controls
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_029 has significant deficiencies and requires immediate remediation to meet SOX requirements.

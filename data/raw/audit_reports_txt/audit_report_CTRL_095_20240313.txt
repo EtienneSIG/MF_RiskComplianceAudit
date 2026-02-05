@@ -1,0 +1,19 @@
+Control ID: CTRL_095
+Control Name: Security Awareness - Security
+Audit Date: 2024-03-13
+Framework: ISO27001
+Auditor: Henry Moore
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+- Implement automated monitoring for continuous compliance
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_095 is operating effectively and meets ISO27001 compliance requirements.

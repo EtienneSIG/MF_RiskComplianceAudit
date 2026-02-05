@@ -1,0 +1,27 @@
+Incident ID: INC_00000023
+Date: 2025-01-13 00:00:00
+Severity: high
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2025-01-13 00:00:00 regarding non-compliance with ISO27001 security requirements. The violation was discovered during a routine audit by Henry Moore. The Finance department failed to follow established procedures for change management.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $10,999 USD
+- Severity Level: HIGH
+- Affected Department: Finance
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Lack of employee security awareness training
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

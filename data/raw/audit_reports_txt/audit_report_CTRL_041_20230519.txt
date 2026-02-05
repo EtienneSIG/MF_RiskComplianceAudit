@@ -1,0 +1,16 @@
+Control ID: CTRL_041
+Control Name: Expense Approval - Financial
+Audit Date: 2023-05-19
+Framework: SOX
+Auditor: David Brown
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_041 is operating effectively and meets SOX compliance requirements.

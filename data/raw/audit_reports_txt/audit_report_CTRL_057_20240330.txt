@@ -1,0 +1,21 @@
+Control ID: CTRL_057
+Control Name: Privacy Impact Assessment - Data Security
+Audit Date: 2024-03-30
+Framework: GDPR
+Auditor: Iris Taylor
+
+FINDINGS:
+- Segregation of duties violation detected in 1 cases
+- Evidence documentation incomplete for 6 instances
+- System access logs not reviewed for 9 days
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Enhance evidence collection and retention procedures
+- Implement automated monitoring for continuous compliance
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_057 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

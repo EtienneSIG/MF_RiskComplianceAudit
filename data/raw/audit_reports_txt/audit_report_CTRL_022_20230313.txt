@@ -1,0 +1,19 @@
+Control ID: CTRL_022
+Control Name: Financial Reporting Controls - Operational
+Audit Date: 2023-03-13
+Framework: SOX
+Auditor: Alice Smith
+
+FINDINGS:
+- Missing approvals for 5 control activities
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_022 requires minor improvements to fully comply with SOX standards.

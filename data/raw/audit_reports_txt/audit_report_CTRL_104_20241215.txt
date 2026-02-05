@@ -1,0 +1,22 @@
+Control ID: CTRL_104
+Control Name: Access Control - Access Control
+Audit Date: 2024-12-15
+Framework: ISO27001
+Auditor: Bob Johnson
+
+FINDINGS:
+- System access logs not reviewed for 8 days
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Missing approvals for 4 control activities
+- Segregation of duties violation detected in 2 cases
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_104 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

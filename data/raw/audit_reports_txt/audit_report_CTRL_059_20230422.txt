@@ -1,0 +1,23 @@
+Control ID: CTRL_059
+Control Name: Data Breach Notification - Privacy
+Audit Date: 2023-04-22
+Framework: GDPR
+Auditor: Alice Smith
+
+FINDINGS:
+- Evidence documentation incomplete for 2 instances
+- System access logs not reviewed for 2 days
+- Evidence documentation incomplete for 3 instances
+- Missing approvals for 4 control activities
+- Evidence documentation incomplete for 6 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_059 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

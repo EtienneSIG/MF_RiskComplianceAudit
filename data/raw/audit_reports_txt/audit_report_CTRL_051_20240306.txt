@@ -1,0 +1,18 @@
+Control ID: CTRL_051
+Control Name: Data Breach Notification - Data Security
+Audit Date: 2024-03-06
+Framework: GDPR
+Auditor: Grace Wilson
+
+FINDINGS:
+- Missing approvals for 6 control activities
+- System access logs not reviewed for 14 days
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_051 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

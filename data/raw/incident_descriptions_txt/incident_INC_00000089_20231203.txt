@@ -1,0 +1,27 @@
+Incident ID: INC_00000089
+Date: 2023-12-03 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-12-03 00:00:00 regarding non-compliance with GDPR data retention requirements. The violation was discovered during a routine audit by Carol Williams. The Customer Support department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $13,013 USD
+- Severity Level: LOW
+- Affected Department: Customer Support
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Outdated software with known vulnerabilities
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

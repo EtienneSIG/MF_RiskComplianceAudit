@@ -1,0 +1,17 @@
+Control ID: CTRL_144
+Control Name: Penetration Testing - Network Security
+Audit Date: 2024-02-22
+Framework: PCI-DSS
+Auditor: David Brown
+
+FINDINGS:
+- Evidence documentation incomplete for 6 instances
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_144 requires minor improvements to fully comply with PCI-DSS standards.

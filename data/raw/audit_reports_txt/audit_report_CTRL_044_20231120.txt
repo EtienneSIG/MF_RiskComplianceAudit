@@ -1,0 +1,22 @@
+Control ID: CTRL_044
+Control Name: Revenue Recognition - Operational
+Audit Date: 2023-11-20
+Framework: SOX
+Auditor: Emma Davis
+
+FINDINGS:
+- Missing approvals for 5 control activities
+- Missing approvals for 1 control activities
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+- Segregation of duties violation detected in 3 cases
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_044 has significant deficiencies and requires immediate remediation to meet SOX requirements.

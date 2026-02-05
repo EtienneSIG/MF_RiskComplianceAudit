@@ -1,0 +1,19 @@
+Control ID: CTRL_143
+Control Name: Penetration Testing - Payment Security
+Audit Date: 2023-10-02
+Framework: PCI-DSS
+Auditor: Emma Davis
+
+FINDINGS:
+- Control execution frequency not aligned with policy (daily vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_143 requires minor improvements to fully comply with PCI-DSS standards.

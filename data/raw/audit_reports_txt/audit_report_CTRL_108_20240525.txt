@@ -1,0 +1,21 @@
+Control ID: CTRL_108
+Control Name: Access Control - Access Control
+Audit Date: 2024-05-25
+Framework: ISO27001
+Auditor: Henry Moore
+
+FINDINGS:
+- System access logs not reviewed for 4 days
+- Segregation of duties violation detected in 4 cases
+- Missing approvals for 8 control activities
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+- Evidence documentation incomplete for 5 instances
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_108 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

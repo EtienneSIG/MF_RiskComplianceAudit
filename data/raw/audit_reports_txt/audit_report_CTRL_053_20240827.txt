@@ -1,0 +1,20 @@
+Control ID: CTRL_053
+Control Name: Privacy Impact Assessment - Privacy
+Audit Date: 2024-08-27
+Framework: GDPR
+Auditor: Frank Miller
+
+FINDINGS:
+- System access logs not reviewed for 15 days
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_053 requires minor improvements to fully comply with GDPR standards.

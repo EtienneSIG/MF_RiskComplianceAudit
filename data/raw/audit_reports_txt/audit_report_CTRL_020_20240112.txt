@@ -1,0 +1,20 @@
+Control ID: CTRL_020
+Control Name: Expense Approval - Financial
+Audit Date: 2024-01-12
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- Missing approvals for 8 control activities
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+- Segregation of duties violation detected in 3 cases
+- System access logs not reviewed for 2 days
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_020 has significant deficiencies and requires immediate remediation to meet SOX requirements.

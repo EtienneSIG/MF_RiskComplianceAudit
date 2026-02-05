@@ -1,0 +1,21 @@
+Control ID: CTRL_132
+Control Name: Physical Security - Network Security
+Audit Date: 2024-03-30
+Framework: PCI-DSS
+Auditor: David Brown
+
+FINDINGS:
+- Segregation of duties violation detected in 3 cases
+- System access logs not reviewed for 9 days
+- System access logs not reviewed for 12 days
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_132 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

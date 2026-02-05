@@ -1,0 +1,27 @@
+Incident ID: INC_00000189
+Date: 2024-12-01 00:00:00
+Severity: high
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-12-01 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Alice Smith. The Marketing department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $9,347 USD
+- Severity Level: HIGH
+- Affected Department: Marketing
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

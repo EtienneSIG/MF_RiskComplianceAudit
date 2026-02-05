@@ -1,0 +1,18 @@
+Control ID: CTRL_112
+Control Name: Security Awareness - Security
+Audit Date: 2023-09-04
+Framework: ISO27001
+Auditor: Jack Anderson
+
+FINDINGS:
+- System access logs not reviewed for 10 days
+- System access logs not reviewed for 15 days
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_112 requires minor improvements to fully comply with ISO27001 standards.

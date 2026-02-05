@@ -1,0 +1,23 @@
+Control ID: CTRL_012
+Control Name: Segregation of Duties - Operational
+Audit Date: 2024-02-26
+Framework: SOX
+Auditor: Grace Wilson
+
+FINDINGS:
+- System access logs not reviewed for 15 days
+- System access logs not reviewed for 12 days
+- Missing approvals for 5 control activities
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Evidence documentation incomplete for 4 instances
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_012 has significant deficiencies and requires immediate remediation to meet SOX requirements.

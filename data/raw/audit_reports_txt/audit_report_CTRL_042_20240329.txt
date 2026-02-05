@@ -1,0 +1,21 @@
+Control ID: CTRL_042
+Control Name: Revenue Recognition - Financial
+Audit Date: 2024-03-29
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 2 cases
+- System access logs not reviewed for 1 days
+- Segregation of duties violation detected in 5 cases
+- Missing approvals for 2 control activities
+- Segregation of duties violation detected in 3 cases
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_042 has significant deficiencies and requires immediate remediation to meet SOX requirements.

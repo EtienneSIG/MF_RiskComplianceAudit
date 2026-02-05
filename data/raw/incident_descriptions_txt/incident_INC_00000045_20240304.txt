@@ -1,0 +1,27 @@
+Incident ID: INC_00000045
+Date: 2024-03-04 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-03-04 00:00:00 regarding non-compliance with GDPR data retention requirements. The violation was discovered during a routine audit by Bob Johnson. The IT department failed to follow established procedures for change management.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $9,988 USD
+- Severity Level: LOW
+- Affected Department: IT
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

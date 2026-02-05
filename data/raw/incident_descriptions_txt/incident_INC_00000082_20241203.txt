@@ -1,0 +1,27 @@
+Incident ID: INC_00000082
+Date: 2024-12-03 00:00:00
+Severity: critical
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-12-03 00:00:00 regarding non-compliance with GDPR data retention requirements. The violation was discovered during a routine audit by David Brown. The IT department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $7,642 USD
+- Severity Level: CRITICAL
+- Affected Department: IT
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Inadequate segregation of duties
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

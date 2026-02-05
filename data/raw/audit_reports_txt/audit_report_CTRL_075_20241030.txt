@@ -1,0 +1,20 @@
+Control ID: CTRL_075
+Control Name: Consent Management - Data Security
+Audit Date: 2024-10-30
+Framework: GDPR
+Auditor: Emma Davis
+
+FINDINGS:
+- Missing approvals for 7 control activities
+- Evidence documentation incomplete for 8 instances
+- Segregation of duties violation detected in 5 cases
+- Segregation of duties violation detected in 5 cases
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_075 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

@@ -1,0 +1,27 @@
+Incident ID: INC_00000064
+Date: 2023-04-03 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-04-03 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by David Brown. The Sales department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $13,556 USD
+- Severity Level: LOW
+- Affected Department: Sales
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Lack of employee security awareness training
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

@@ -1,0 +1,19 @@
+Control ID: CTRL_145
+Control Name: Network Segmentation - Network Security
+Audit Date: 2023-08-13
+Framework: PCI-DSS
+Auditor: Henry Moore
+
+FINDINGS:
+- Evidence documentation incomplete for 2 instances
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_145 requires minor improvements to fully comply with PCI-DSS standards.

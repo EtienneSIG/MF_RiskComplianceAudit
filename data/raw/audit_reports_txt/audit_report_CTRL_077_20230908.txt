@@ -1,0 +1,18 @@
+Control ID: CTRL_077
+Control Name: Data Subject Rights - Privacy
+Audit Date: 2023-09-08
+Framework: GDPR
+Auditor: Jack Anderson
+
+FINDINGS:
+- System access logs not reviewed for 2 days
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+- Implement automated monitoring for continuous compliance
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_077 requires minor improvements to fully comply with GDPR standards.

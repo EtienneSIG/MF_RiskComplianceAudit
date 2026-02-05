@@ -1,0 +1,20 @@
+Control ID: CTRL_123
+Control Name: Security Awareness - Access Control
+Audit Date: 2024-05-03
+Framework: ISO27001
+Auditor: Carol Williams
+
+FINDINGS:
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+- Evidence documentation incomplete for 3 instances
+- Missing approvals for 4 control activities
+- System access logs not reviewed for 1 days
+- System access logs not reviewed for 5 days
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_123 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

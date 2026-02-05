@@ -1,0 +1,27 @@
+Incident ID: INC_00000175
+Date: 2024-02-13 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-02-13 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Henry Moore. The Finance department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $5,852 USD
+- Severity Level: MEDIUM
+- Affected Department: Finance
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Outdated software with known vulnerabilities
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

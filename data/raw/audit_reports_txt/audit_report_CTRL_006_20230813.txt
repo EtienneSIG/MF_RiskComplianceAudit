@@ -1,0 +1,19 @@
+Control ID: CTRL_006
+Control Name: Expense Approval - Operational
+Audit Date: 2023-08-13
+Framework: SOX
+Auditor: Henry Moore
+
+FINDINGS:
+- Evidence documentation incomplete for 7 instances
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+- Implement automated monitoring for continuous compliance
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_006 requires minor improvements to fully comply with SOX standards.

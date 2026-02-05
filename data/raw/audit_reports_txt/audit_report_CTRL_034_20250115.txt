@@ -1,0 +1,20 @@
+Control ID: CTRL_034
+Control Name: Journal Entry Review - Financial
+Audit Date: 2025-01-15
+Framework: SOX
+Auditor: Bob Johnson
+
+FINDINGS:
+- System access logs not reviewed for 10 days
+- Missing approvals for 4 control activities
+- Segregation of duties violation detected in 4 cases
+- Evidence documentation incomplete for 3 instances
+- Evidence documentation incomplete for 9 instances
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_034 has significant deficiencies and requires immediate remediation to meet SOX requirements.

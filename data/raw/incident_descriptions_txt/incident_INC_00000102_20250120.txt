@@ -1,0 +1,27 @@
+Incident ID: INC_00000102
+Date: 2025-01-20 00:00:00
+Severity: high
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Yu-Reid was reported on 2025-01-20 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides logistics and has access to employee information. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $104,396 USD
+- Severity Level: HIGH
+- Affected Department: Sales
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

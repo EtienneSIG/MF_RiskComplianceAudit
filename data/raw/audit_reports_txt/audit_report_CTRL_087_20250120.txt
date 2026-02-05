@@ -1,0 +1,20 @@
+Control ID: CTRL_087
+Control Name: Security Awareness - Access Control
+Audit Date: 2025-01-20
+Framework: ISO27001
+Auditor: Bob Johnson
+
+FINDINGS:
+- Missing approvals for 5 control activities
+- System access logs not reviewed for 4 days
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+- Provide additional training to control owners
+- Provide additional training to control owners
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_087 requires minor improvements to fully comply with ISO27001 standards.

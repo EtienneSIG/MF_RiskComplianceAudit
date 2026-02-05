@@ -1,0 +1,23 @@
+Control ID: CTRL_146
+Control Name: Network Segmentation - Network Security
+Audit Date: 2023-11-04
+Framework: PCI-DSS
+Auditor: Grace Wilson
+
+FINDINGS:
+- Evidence documentation incomplete for 7 instances
+- System access logs not reviewed for 7 days
+- Evidence documentation incomplete for 4 instances
+- System access logs not reviewed for 7 days
+- Segregation of duties violation detected in 5 cases
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_146 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

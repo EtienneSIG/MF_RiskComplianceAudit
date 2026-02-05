@@ -1,0 +1,19 @@
+Control ID: CTRL_072
+Control Name: Data Subject Rights - Privacy
+Audit Date: 2024-04-15
+Framework: GDPR
+Auditor: Alice Smith
+
+FINDINGS:
+- System access logs not reviewed for 8 days
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+- Missing approvals for 1 control activities
+- Segregation of duties violation detected in 2 cases
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_072 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

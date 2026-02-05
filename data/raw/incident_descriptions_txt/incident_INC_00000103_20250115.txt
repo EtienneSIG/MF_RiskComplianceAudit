@@ -1,0 +1,27 @@
+Incident ID: INC_00000103
+Date: 2025-01-15 00:00:00
+Severity: low
+Type: data_breach
+
+DESCRIPTION:
+On 2025-01-15 00:00:00, a data breach was detected in the Marketing department. Unauthorized access was gained to customer databases containing personally identifiable information (PII). The breach was discovered during routine security monitoring when anomalous access patterns were detected. Initial investigation suggests the breach occurred due to compromised employee credentials. Approximately 2634 customer records may have been exposed.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $222,518 USD
+- Severity Level: LOW
+- Affected Department: Marketing
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

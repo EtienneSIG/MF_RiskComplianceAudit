@@ -1,0 +1,21 @@
+Control ID: CTRL_082
+Control Name: Data Breach Notification - Privacy
+Audit Date: 2023-09-28
+Framework: GDPR
+Auditor: Emma Davis
+
+FINDINGS:
+- Control execution frequency not aligned with policy (continuous vs expected daily)
+- Segregation of duties violation detected in 1 cases
+- Segregation of duties violation detected in 5 cases
+- Segregation of duties violation detected in 5 cases
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_082 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

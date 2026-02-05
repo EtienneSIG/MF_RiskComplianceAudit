@@ -1,0 +1,19 @@
+Control ID: CTRL_037
+Control Name: Journal Entry Review - Operational
+Audit Date: 2023-11-14
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 3 cases
+- System access logs not reviewed for 6 days
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_037 requires minor improvements to fully comply with SOX standards.

@@ -1,0 +1,27 @@
+Incident ID: INC_00000055
+Date: 2023-06-04 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-06-04 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by David Brown. The Customer Support department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $8,341 USD
+- Severity Level: MEDIUM
+- Affected Department: Customer Support
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

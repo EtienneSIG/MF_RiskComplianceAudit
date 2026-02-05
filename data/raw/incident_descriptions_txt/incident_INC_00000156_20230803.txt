@@ -1,0 +1,27 @@
+Incident ID: INC_00000156
+Date: 2023-08-03 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-08-03 00:00:00 regarding non-compliance with GDPR data retention requirements. The violation was discovered during a routine audit by Henry Moore. The IT department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $10,101 USD
+- Severity Level: LOW
+- Affected Department: IT
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

@@ -1,0 +1,22 @@
+Control ID: CTRL_067
+Control Name: Data Retention - Data Security
+Audit Date: 2024-07-04
+Framework: GDPR
+Auditor: Bob Johnson
+
+FINDINGS:
+- Evidence documentation incomplete for 3 instances
+- Missing approvals for 7 control activities
+- Segregation of duties violation detected in 5 cases
+- Segregation of duties violation detected in 1 cases
+- Segregation of duties violation detected in 5 cases
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_067 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

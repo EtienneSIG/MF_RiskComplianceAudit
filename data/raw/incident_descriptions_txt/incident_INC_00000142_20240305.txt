@@ -1,0 +1,27 @@
+Incident ID: INC_00000142
+Date: 2024-03-05 00:00:00
+Severity: low
+Type: access_violation
+
+DESCRIPTION:
+An access violation was identified on 2024-03-05 00:00:00 when user Jeremy Thornton attempted to access restricted financial systems without proper authorization. The incident was flagged by the access control system and immediately blocked. Review of access logs indicates this may be part of a pattern of unauthorized access attempts. The user's account has been temporarily suspended pending investigation.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $14,494 USD
+- Severity Level: LOW
+- Affected Department: Legal
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Inadequate segregation of duties
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

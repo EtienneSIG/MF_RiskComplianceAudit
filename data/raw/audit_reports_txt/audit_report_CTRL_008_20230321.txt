@@ -1,0 +1,21 @@
+Control ID: CTRL_008
+Control Name: Journal Entry Review - Financial
+Audit Date: 2023-03-21
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 1 cases
+- Segregation of duties violation detected in 3 cases
+- Missing approvals for 7 control activities
+- Evidence documentation incomplete for 4 instances
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_008 has significant deficiencies and requires immediate remediation to meet SOX requirements.

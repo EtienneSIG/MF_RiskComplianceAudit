@@ -1,0 +1,21 @@
+Control ID: CTRL_107
+Control Name: Backup Procedures - Access Control
+Audit Date: 2023-07-10
+Framework: ISO27001
+Auditor: Bob Johnson
+
+FINDINGS:
+- Missing approvals for 2 control activities
+- System access logs not reviewed for 4 days
+- Segregation of duties violation detected in 1 cases
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Segregation of duties violation detected in 2 cases
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_107 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

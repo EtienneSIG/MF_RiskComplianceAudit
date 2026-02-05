@@ -1,0 +1,20 @@
+Control ID: CTRL_032
+Control Name: Revenue Recognition - Operational
+Audit Date: 2024-09-08
+Framework: SOX
+Auditor: Emma Davis
+
+FINDINGS:
+- Evidence documentation incomplete for 2 instances
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Evidence documentation incomplete for 2 instances
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_032 has significant deficiencies and requires immediate remediation to meet SOX requirements.

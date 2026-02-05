@@ -1,0 +1,23 @@
+Control ID: CTRL_079
+Control Name: Data Breach Notification - Data Security
+Audit Date: 2024-01-24
+Framework: GDPR
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 4 cases
+- System access logs not reviewed for 4 days
+- System access logs not reviewed for 13 days
+- Control execution frequency not aligned with policy (quarterly vs expected daily)
+- Evidence documentation incomplete for 1 instances
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_079 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

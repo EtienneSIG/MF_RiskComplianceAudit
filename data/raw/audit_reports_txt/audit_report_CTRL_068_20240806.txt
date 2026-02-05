@@ -1,0 +1,19 @@
+Control ID: CTRL_068
+Control Name: Consent Management - Data Security
+Audit Date: 2024-08-06
+Framework: GDPR
+Auditor: David Brown
+
+FINDINGS:
+- System access logs not reviewed for 10 days
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+- Strengthen segregation of duties controls
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_068 requires minor improvements to fully comply with GDPR standards.

@@ -1,0 +1,20 @@
+Control ID: CTRL_149
+Control Name: Network Segmentation - Network Security
+Audit Date: 2023-05-26
+Framework: PCI-DSS
+Auditor: Carol Williams
+
+FINDINGS:
+- Segregation of duties violation detected in 5 cases
+- Segregation of duties violation detected in 4 cases
+- Segregation of duties violation detected in 4 cases
+- Evidence documentation incomplete for 5 instances
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_149 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

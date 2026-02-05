@@ -1,0 +1,23 @@
+Control ID: CTRL_094
+Control Name: Access Control - Access Control
+Audit Date: 2023-05-02
+Framework: ISO27001
+Auditor: Iris Taylor
+
+FINDINGS:
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- System access logs not reviewed for 12 days
+- System access logs not reviewed for 8 days
+- Control execution frequency not aligned with policy (daily vs expected daily)
+- Missing approvals for 6 control activities
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_094 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

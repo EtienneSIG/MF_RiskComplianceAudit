@@ -1,0 +1,27 @@
+Incident ID: INC_00000003
+Date: 2024-02-25 00:00:00
+Severity: high
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-02-25 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Henry Moore. The Legal department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $15,753 USD
+- Severity Level: HIGH
+- Affected Department: Legal
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

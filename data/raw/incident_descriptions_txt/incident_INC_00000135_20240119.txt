@@ -1,0 +1,27 @@
+Incident ID: INC_00000135
+Date: 2024-01-19 00:00:00
+Severity: high
+Type: data_breach
+
+DESCRIPTION:
+On 2024-01-19 00:00:00, a data breach was detected in the Operations department. Unauthorized access was gained to customer databases containing personally identifiable information (PII). The breach was discovered during routine security monitoring when anomalous access patterns were detected. Initial investigation suggests the breach occurred due to compromised employee credentials. Approximately 9588 customer records may have been exposed.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $202,654 USD
+- Severity Level: HIGH
+- Affected Department: Operations
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Inadequate segregation of duties
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

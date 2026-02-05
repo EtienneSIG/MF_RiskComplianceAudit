@@ -1,0 +1,20 @@
+Control ID: CTRL_025
+Control Name: Segregation of Duties - Financial
+Audit Date: 2023-08-20
+Framework: SOX
+Auditor: Jack Anderson
+
+FINDINGS:
+- System access logs not reviewed for 10 days
+- Missing approvals for 7 control activities
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_025 requires minor improvements to fully comply with SOX standards.

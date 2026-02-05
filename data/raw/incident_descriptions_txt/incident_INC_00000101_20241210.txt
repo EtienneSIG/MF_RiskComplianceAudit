@@ -1,0 +1,27 @@
+Incident ID: INC_00000101
+Date: 2024-12-10 00:00:00
+Severity: low
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Ramsey, Whitney and Coffey was reported on 2024-12-10 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides cloud services and has access to customer data. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $225,709 USD
+- Severity Level: LOW
+- Affected Department: HR
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Lack of employee security awareness training
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

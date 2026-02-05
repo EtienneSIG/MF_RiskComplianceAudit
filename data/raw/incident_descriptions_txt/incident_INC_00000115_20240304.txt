@@ -1,0 +1,27 @@
+Incident ID: INC_00000115
+Date: 2024-03-04 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-03-04 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by Frank Miller. The IT department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $7,945 USD
+- Severity Level: MEDIUM
+- Affected Department: IT
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Failure to follow change management procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

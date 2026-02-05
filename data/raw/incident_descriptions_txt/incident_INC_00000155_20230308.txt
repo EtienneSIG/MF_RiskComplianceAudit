@@ -1,0 +1,27 @@
+Incident ID: INC_00000155
+Date: 2023-03-08 00:00:00
+Severity: medium
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Raymond, Little and Mullins was reported on 2023-03-08 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides customer support and has access to intellectual property. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $227,967 USD
+- Severity Level: MEDIUM
+- Affected Department: HR
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Insufficient access controls and authentication mechanisms
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

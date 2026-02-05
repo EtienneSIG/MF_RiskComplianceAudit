@@ -1,0 +1,21 @@
+Control ID: CTRL_001
+Control Name: Expense Approval - Operational
+Audit Date: 2023-08-15
+Framework: SOX
+Auditor: Emma Davis
+
+FINDINGS:
+- Segregation of duties violation detected in 2 cases
+- Missing approvals for 4 control activities
+- Missing approvals for 6 control activities
+- Evidence documentation incomplete for 10 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_001 has significant deficiencies and requires immediate remediation to meet SOX requirements.

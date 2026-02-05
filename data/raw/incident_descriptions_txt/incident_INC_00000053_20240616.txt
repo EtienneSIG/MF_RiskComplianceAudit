@@ -1,0 +1,27 @@
+Incident ID: INC_00000053
+Date: 2024-06-16 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-06-16 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by Emma Davis. The HR department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $17,714 USD
+- Severity Level: LOW
+- Affected Department: HR
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Missing or ineffective monitoring and alerting
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

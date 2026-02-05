@@ -1,0 +1,21 @@
+Control ID: CTRL_064
+Control Name: Data Breach Notification - Data Security
+Audit Date: 2023-12-25
+Framework: GDPR
+Auditor: Frank Miller
+
+FINDINGS:
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+- Missing approvals for 1 control activities
+- System access logs not reviewed for 12 days
+- System access logs not reviewed for 14 days
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_064 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

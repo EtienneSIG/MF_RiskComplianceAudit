@@ -1,0 +1,18 @@
+Control ID: CTRL_035
+Control Name: Financial Reporting Controls - Financial
+Audit Date: 2024-12-14
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_035 is operating effectively and meets SOX compliance requirements.

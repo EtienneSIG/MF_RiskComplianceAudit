@@ -1,0 +1,19 @@
+Control ID: CTRL_021
+Control Name: Journal Entry Review - Operational
+Audit Date: 2024-02-21
+Framework: SOX
+Auditor: Carol Williams
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_021 is operating effectively and meets SOX compliance requirements.

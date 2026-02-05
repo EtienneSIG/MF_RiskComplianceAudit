@@ -1,0 +1,27 @@
+Incident ID: INC_00000133
+Date: 2023-12-21 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-12-21 00:00:00 regarding non-compliance with ISO27001 security requirements. The violation was discovered during a routine audit by Iris Taylor. The Finance department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $18,229 USD
+- Severity Level: MEDIUM
+- Affected Department: Finance
+- Potential Regulatory Implications: PCI-DSS non-compliance penalty
+
+
+
+ROOT CAUSE:
+Lack of employee security awareness training
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

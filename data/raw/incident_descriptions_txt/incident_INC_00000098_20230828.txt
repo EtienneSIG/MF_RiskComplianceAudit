@@ -1,0 +1,27 @@
+Incident ID: INC_00000098
+Date: 2023-08-28 00:00:00
+Severity: medium
+Type: system_failure
+
+DESCRIPTION:
+A critical system failure occurred on 2023-08-28 00:00:00 affecting email server. The outage lasted approximately 5 hours and impacted 241 users. Root cause analysis indicates the failure was due to network outage. Business continuity plans were activated to minimize impact.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $65,292 USD
+- Severity Level: MEDIUM
+- Affected Department: Legal
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Lack of employee security awareness training
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

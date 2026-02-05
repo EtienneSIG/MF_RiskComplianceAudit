@@ -1,0 +1,20 @@
+Control ID: CTRL_111
+Control Name: Vulnerability Management - Access Control
+Audit Date: 2023-12-25
+Framework: ISO27001
+Auditor: Grace Wilson
+
+FINDINGS:
+- System access logs not reviewed for 7 days
+- Segregation of duties violation detected in 5 cases
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Evidence documentation incomplete for 7 instances
+
+RECOMMENDATIONS:
+- Enhance evidence collection and retention procedures
+- Strengthen segregation of duties controls
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_111 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

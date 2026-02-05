@@ -1,0 +1,19 @@
+Control ID: CTRL_120
+Control Name: Vulnerability Management - Access Control
+Audit Date: 2023-10-04
+Framework: ISO27001
+Auditor: Iris Taylor
+
+FINDINGS:
+- System access logs not reviewed for 12 days
+- System access logs not reviewed for 13 days
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Strengthen segregation of duties controls
+- Implement automated monitoring for continuous compliance
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_120 requires minor improvements to fully comply with ISO27001 standards.

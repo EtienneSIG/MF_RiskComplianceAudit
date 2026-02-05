@@ -1,0 +1,18 @@
+Control ID: CTRL_043
+Control Name: Segregation of Duties - Financial
+Audit Date: 2024-12-30
+Framework: SOX
+Auditor: Iris Taylor
+
+FINDINGS:
+- Missing approvals for 5 control activities
+- Segregation of duties violation detected in 2 cases
+- Missing approvals for 6 control activities
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_043 has significant deficiencies and requires immediate remediation to meet SOX requirements.

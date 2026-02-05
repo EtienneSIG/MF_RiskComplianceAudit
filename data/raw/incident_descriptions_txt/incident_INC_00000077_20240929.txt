@@ -1,0 +1,27 @@
+Incident ID: INC_00000077
+Date: 2024-09-29 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-09-29 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Frank Miller. The Operations department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $19,400 USD
+- Severity Level: LOW
+- Affected Department: Operations
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

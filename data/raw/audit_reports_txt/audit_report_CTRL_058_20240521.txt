@@ -1,0 +1,19 @@
+Control ID: CTRL_058
+Control Name: Consent Management - Data Security
+Audit Date: 2024-05-21
+Framework: GDPR
+Auditor: Grace Wilson
+
+FINDINGS:
+- Evidence documentation incomplete for 8 instances
+- Missing approvals for 2 control activities
+- Missing approvals for 7 control activities
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_058 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

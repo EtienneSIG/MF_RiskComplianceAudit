@@ -1,0 +1,16 @@
+Control ID: CTRL_081
+Control Name: Consent Management - Data Security
+Audit Date: 2023-03-07
+Framework: GDPR
+Auditor: Grace Wilson
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_081 is operating effectively and meets GDPR compliance requirements.

@@ -1,0 +1,27 @@
+Incident ID: INC_00000058
+Date: 2023-08-26 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-08-26 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Bob Johnson. The Customer Support department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $9,412 USD
+- Severity Level: LOW
+- Affected Department: Customer Support
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

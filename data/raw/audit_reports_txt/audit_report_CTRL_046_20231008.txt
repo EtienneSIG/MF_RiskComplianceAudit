@@ -1,0 +1,17 @@
+Control ID: CTRL_046
+Control Name: Data Subject Rights - Privacy
+Audit Date: 2023-10-08
+Framework: GDPR
+Auditor: Frank Miller
+
+FINDINGS:
+- Evidence documentation incomplete for 8 instances
+- Missing approvals for 8 control activities
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_046 requires minor improvements to fully comply with GDPR standards.

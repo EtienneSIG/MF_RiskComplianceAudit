@@ -1,0 +1,27 @@
+Incident ID: INC_00000005
+Date: 2023-06-21 00:00:00
+Severity: high
+Type: data_breach
+
+DESCRIPTION:
+On 2023-06-21 00:00:00, a data breach was detected in the Legal department. Unauthorized access was gained to customer databases containing personally identifiable information (PII). The breach was discovered during routine security monitoring when anomalous access patterns were detected. Initial investigation suggests the breach occurred due to compromised employee credentials. Approximately 5272 customer records may have been exposed.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $82,951 USD
+- Severity Level: HIGH
+- Affected Department: Legal
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Outdated software with known vulnerabilities
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

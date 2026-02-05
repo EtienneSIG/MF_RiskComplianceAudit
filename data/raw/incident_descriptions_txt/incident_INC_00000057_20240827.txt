@@ -1,0 +1,27 @@
+Incident ID: INC_00000057
+Date: 2024-08-27 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-08-27 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by Iris Taylor. The Finance department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $13,153 USD
+- Severity Level: MEDIUM
+- Affected Department: Finance
+- Potential Regulatory Implications: GDPR Article 33 breach notification required
+
+
+
+ROOT CAUSE:
+Outdated software with known vulnerabilities
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

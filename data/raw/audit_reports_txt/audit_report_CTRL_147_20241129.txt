@@ -1,0 +1,21 @@
+Control ID: CTRL_147
+Control Name: Cardholder Data Encryption - Network Security
+Audit Date: 2024-11-29
+Framework: PCI-DSS
+Auditor: Bob Johnson
+
+FINDINGS:
+- Missing approvals for 1 control activities
+- Missing approvals for 2 control activities
+- Segregation of duties violation detected in 2 cases
+- Missing approvals for 3 control activities
+- Missing approvals for 6 control activities
+
+RECOMMENDATIONS:
+- Provide additional training to control owners
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_147 has significant deficiencies and requires immediate remediation to meet PCI-DSS requirements.

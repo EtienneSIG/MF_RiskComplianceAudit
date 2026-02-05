@@ -1,0 +1,27 @@
+Incident ID: INC_00000137
+Date: 2023-03-30 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-03-30 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Henry Moore. The Operations department failed to follow established procedures for change management.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $12,543 USD
+- Severity Level: LOW
+- Affected Department: Operations
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Inadequate vendor due diligence procedures
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

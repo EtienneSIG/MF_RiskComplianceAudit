@@ -1,0 +1,27 @@
+Incident ID: INC_00000200
+Date: 2024-06-20 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-06-20 00:00:00 regarding non-compliance with ISO27001 security requirements. The violation was discovered during a routine audit by Bob Johnson. The Marketing department failed to follow established procedures for access reviews.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $12,830 USD
+- Severity Level: MEDIUM
+- Affected Department: Marketing
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Insufficient access controls and authentication mechanisms
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

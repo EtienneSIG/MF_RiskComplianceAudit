@@ -1,0 +1,20 @@
+Control ID: CTRL_054
+Control Name: Data Subject Rights - Privacy
+Audit Date: 2023-11-11
+Framework: GDPR
+Auditor: Frank Miller
+
+FINDINGS:
+- System access logs not reviewed for 1 days
+- Evidence documentation incomplete for 5 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+- Update control documentation to reflect current process
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_054 requires minor improvements to fully comply with GDPR standards.

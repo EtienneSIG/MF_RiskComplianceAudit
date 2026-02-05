@@ -1,0 +1,27 @@
+Incident ID: INC_00000039
+Date: 2024-09-01 00:00:00
+Severity: medium
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor Jones-Hensley was reported on 2024-09-01 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides customer support and has access to employee information. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $258,261 USD
+- Severity Level: MEDIUM
+- Affected Department: Marketing
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

@@ -1,0 +1,27 @@
+Incident ID: INC_00000020
+Date: 2024-01-27 00:00:00
+Severity: medium
+Type: third_party_breach
+
+DESCRIPTION:
+A security breach at vendor King-Wilson was reported on 2024-01-27 00:00:00. The vendor notified us that their systems were compromised, potentially exposing data shared with them as part of our business operations. The vendor provides customer support and has access to financial records. We have initiated our third-party incident response procedures.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $253,065 USD
+- Severity Level: MEDIUM
+- Affected Department: HR
+- Potential Regulatory Implications: None identified
+
+
+
+ROOT CAUSE:
+Missing or ineffective monitoring and alerting
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

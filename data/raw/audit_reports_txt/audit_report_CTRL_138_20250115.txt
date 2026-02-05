@@ -1,0 +1,19 @@
+Control ID: CTRL_138
+Control Name: Penetration Testing - Payment Security
+Audit Date: 2025-01-15
+Framework: PCI-DSS
+Auditor: David Brown
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+- Update control documentation to reflect current process
+- Provide additional training to control owners
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_138 is operating effectively and meets PCI-DSS compliance requirements.

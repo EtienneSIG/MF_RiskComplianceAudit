@@ -1,0 +1,18 @@
+Control ID: CTRL_070
+Control Name: Data Subject Rights - Data Security
+Audit Date: 2025-01-05
+Framework: GDPR
+Auditor: Jack Anderson
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Enhance evidence collection and retention procedures
+- Update control documentation to reflect current process
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_070 is operating effectively and meets GDPR compliance requirements.

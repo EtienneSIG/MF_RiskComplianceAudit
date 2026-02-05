@@ -1,0 +1,17 @@
+Control ID: CTRL_140
+Control Name: Key Management - Payment Security
+Audit Date: 2023-04-21
+Framework: PCI-DSS
+Auditor: Bob Johnson
+
+FINDINGS:
+- Missing approvals for 5 control activities
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+
+STATUS: Partial
+
+CONCLUSION:
+The control CTRL_140 requires minor improvements to fully comply with PCI-DSS standards.

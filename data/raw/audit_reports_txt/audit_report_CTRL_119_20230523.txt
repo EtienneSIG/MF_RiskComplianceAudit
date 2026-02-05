@@ -1,0 +1,21 @@
+Control ID: CTRL_119
+Control Name: Access Control - Access Control
+Audit Date: 2023-05-23
+Framework: ISO27001
+Auditor: Iris Taylor
+
+FINDINGS:
+- System access logs not reviewed for 6 days
+- Evidence documentation incomplete for 1 instances
+- Evidence documentation incomplete for 4 instances
+- Segregation of duties violation detected in 4 cases
+- System access logs not reviewed for 4 days
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Implement automated monitoring for continuous compliance
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_119 has significant deficiencies and requires immediate remediation to meet ISO27001 requirements.

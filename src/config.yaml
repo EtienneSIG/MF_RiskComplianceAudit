@@ -1,0 +1,187 @@
+# Configuration for Risk, Compliance & Audit Data Generation
+
+# Seed for reproducibility
+seed: 42
+
+# Date range for data generation
+start_date: "2023-02-01"
+end_date: "2025-01-31"  # 24 months
+
+# Volumes
+controls:
+  count: 150
+  
+control_executions:
+  per_control_per_month: 1  # ~3,600 total (150 controls × 24 months)
+  
+incidents:
+  count: 200
+  
+remediation_actions:
+  per_incident: 0.9  # ~180 total (90% incidents have remediation)
+  
+vendors:
+  count: 100
+
+# Text files
+audit_reports:
+  count: 100  # ~2/3 of controls have audit report
+  
+incident_descriptions:
+  count: 150  # ~75% of incidents have detailed description
+
+# Control configuration
+control_frameworks:
+  - name: "SOX"
+    percentage: 30
+    categories:
+      - financial
+      - operational
+  - name: "GDPR"
+    percentage: 25
+    categories:
+      - privacy
+      - data_security
+  - name: "ISO27001"
+    percentage: 30
+    categories:
+      - security
+      - access_control
+  - name: "PCI-DSS"
+    percentage: 15
+    categories:
+      - payment_security
+      - network_security
+
+control_criticality:
+  critical: 20  # %
+  high: 35
+  medium: 30
+  low: 15
+
+control_types:
+  preventive: 40  # %
+  detective: 45
+  corrective: 15
+
+control_frequencies:
+  continuous: 10  # %
+  daily: 20
+  weekly: 25
+  monthly: 30
+  quarterly: 15
+
+# Execution status distribution
+execution_status:
+  passed: 70  # % (realistic compliance rate ~88-92%)
+  failed: 20
+  not_tested: 8
+  not_applicable: 2
+
+# Incident configuration
+incident_severity:
+  critical: 5  # %
+  high: 15
+  medium: 40
+  low: 40
+
+incident_types:
+  - name: "data_breach"
+    percentage: 15
+    avg_financial_impact: 150000
+  - name: "access_violation"
+    percentage: 25
+    avg_financial_impact: 25000
+  - name: "policy_violation"
+    percentage: 30
+    avg_financial_impact: 10000
+  - name: "system_failure"
+    percentage: 20
+    avg_financial_impact: 50000
+  - name: "third_party_breach"
+    percentage: 10
+    avg_financial_impact: 200000
+
+incident_status:
+  open: 10  # %
+  investigating: 15
+  remediated: 60
+  closed: 15
+
+# Remediation configuration
+remediation_status:
+  pending: 10  # %
+  in_progress: 20
+  completed: 60
+  verified: 10
+
+remediation_mttr:  # Mean Time To Remediate (days)
+  critical: 1
+  high: 7
+  medium: 30
+  low: 60
+
+# Vendor configuration
+vendor_criticality:
+  critical: 15  # %
+  high: 30
+  medium: 35
+  low: 20
+
+vendor_compliance_status:
+  compliant: 60  # %
+  partial: 25
+  non_compliant: 15
+
+vendor_annual_spend_ranges:  # USD
+  critical: [500000, 5000000]
+  high: [100000, 500000]
+  medium: [50000, 100000]
+  low: [10000, 50000]
+
+vendor_last_audit_months:  # months since last audit
+  min: 0
+  max: 24
+
+# Departments
+departments:
+  - Finance
+  - IT
+  - Legal
+  - Operations
+  - HR
+  - Sales
+  - Marketing
+  - Customer Support
+
+# Auditors
+auditors:
+  - Alice Smith
+  - Bob Johnson
+  - Carol Williams
+  - David Brown
+  - Emma Davis
+  - Frank Miller
+  - Grace Wilson
+  - Henry Moore
+  - Iris Taylor
+  - Jack Anderson
+
+# Control owners (by department)
+control_owners:
+  Finance:
+    - CFO
+    - Controller
+    - Finance Manager
+  IT:
+    - CTO
+    - IT Security Manager
+    - Infrastructure Manager
+  Legal:
+    - General Counsel
+    - Compliance Officer
+    - Data Protection Officer
+  Operations:
+    - COO
+    - Operations Manager
+    - Quality Manager

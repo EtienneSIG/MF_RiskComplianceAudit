@@ -1,0 +1,22 @@
+Control ID: CTRL_024
+Control Name: Revenue Recognition - Operational
+Audit Date: 2023-07-14
+Framework: SOX
+Auditor: Bob Johnson
+
+FINDINGS:
+- Segregation of duties violation detected in 2 cases
+- Missing approvals for 2 control activities
+- Missing approvals for 4 control activities
+- Evidence documentation incomplete for 4 instances
+- Control execution frequency not aligned with policy (monthly vs expected daily)
+
+RECOMMENDATIONS:
+- Update control documentation to reflect current process
+- Strengthen segregation of duties controls
+- Enhance evidence collection and retention procedures
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_024 has significant deficiencies and requires immediate remediation to meet SOX requirements.

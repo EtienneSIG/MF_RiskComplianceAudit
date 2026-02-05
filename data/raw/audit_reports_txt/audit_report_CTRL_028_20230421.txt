@@ -1,0 +1,17 @@
+Control ID: CTRL_028
+Control Name: Journal Entry Review - Financial
+Audit Date: 2023-04-21
+Framework: SOX
+Auditor: Jack Anderson
+
+FINDINGS:
+- No findings identified. Control operating effectively.
+
+RECOMMENDATIONS:
+- Strengthen segregation of duties controls
+- Update control documentation to reflect current process
+
+STATUS: Compliant
+
+CONCLUSION:
+The control CTRL_028 is operating effectively and meets SOX compliance requirements.

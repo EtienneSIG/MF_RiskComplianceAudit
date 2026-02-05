@@ -1,0 +1,20 @@
+Control ID: CTRL_047
+Control Name: Data Breach Notification - Privacy
+Audit Date: 2023-12-01
+Framework: GDPR
+Auditor: Jack Anderson
+
+FINDINGS:
+- Segregation of duties violation detected in 3 cases
+- Control execution frequency not aligned with policy (weekly vs expected daily)
+- Evidence documentation incomplete for 10 instances
+
+RECOMMENDATIONS:
+- Implement automated monitoring for continuous compliance
+- Enhance evidence collection and retention procedures
+- Provide additional training to control owners
+
+STATUS: Non-Compliant
+
+CONCLUSION:
+The control CTRL_047 has significant deficiencies and requires immediate remediation to meet GDPR requirements.

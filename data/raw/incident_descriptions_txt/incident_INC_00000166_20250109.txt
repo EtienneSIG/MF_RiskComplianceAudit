@@ -1,0 +1,27 @@
+Incident ID: INC_00000166
+Date: 2025-01-09 00:00:00
+Severity: medium
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2025-01-09 00:00:00 regarding non-compliance with PCI-DSS encryption requirements. The violation was discovered during a routine audit by David Brown. The Operations department failed to follow established procedures for incident reporting.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $17,796 USD
+- Severity Level: MEDIUM
+- Affected Department: Operations
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Insufficient access controls and authentication mechanisms
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

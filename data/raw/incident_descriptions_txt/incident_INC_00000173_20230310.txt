@@ -1,0 +1,27 @@
+Incident ID: INC_00000173
+Date: 2023-03-10 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2023-03-10 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Frank Miller. The Operations department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $9,632 USD
+- Severity Level: LOW
+- Affected Department: Operations
+- Potential Regulatory Implications: SOX Section 404 control deficiency
+
+
+
+ROOT CAUSE:
+Inadequate segregation of duties
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

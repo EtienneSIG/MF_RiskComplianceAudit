@@ -1,0 +1,27 @@
+Incident ID: INC_00000067
+Date: 2024-03-23 00:00:00
+Severity: low
+Type: policy_violation
+
+DESCRIPTION:
+A policy violation was reported on 2024-03-23 00:00:00 regarding non-compliance with SOX documentation requirements. The violation was discovered during a routine audit by Carol Williams. The Marketing department failed to follow established procedures for data classification.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $7,357 USD
+- Severity Level: LOW
+- Affected Department: Marketing
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+

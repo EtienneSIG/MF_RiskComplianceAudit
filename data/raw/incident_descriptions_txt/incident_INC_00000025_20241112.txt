@@ -1,0 +1,27 @@
+Incident ID: INC_00000025
+Date: 2024-11-12 00:00:00
+Severity: low
+Type: access_violation
+
+DESCRIPTION:
+An access violation was identified on 2024-11-12 00:00:00 when user Holly Gibbs attempted to access restricted financial systems without proper authorization. The incident was flagged by the access control system and immediately blocked. Review of access logs indicates this may be part of a pattern of unauthorized access attempts. The user's account has been temporarily suspended pending investigation.
+
+
+IMPACT ASSESSMENT:
+- Financial Impact: $49,687 USD
+- Severity Level: LOW
+- Affected Department: Operations
+- Potential Regulatory Implications: ISO27001 certification at risk
+
+
+
+ROOT CAUSE:
+Human error in system configuration
+
+IMMEDIATE ACTIONS TAKEN:
+- Incident response team activated
+- Affected systems isolated
+- Senior management notified
+- Forensic investigation initiated
+- Legal and compliance teams engaged
+
