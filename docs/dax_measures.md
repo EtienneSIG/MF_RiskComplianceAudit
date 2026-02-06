@@ -2,152 +2,22 @@
 
 ## 📋 Vue d'ensemble
 
-Ce document contient **40+ mesures DAX** pour l'analyse risque, conformité et audit dans le Semantic Model Microsoft Fabric.
+Ce document contient **30+ mesures DAX** pour l'analyse risque, conformité et audit dans le Semantic Model Microsoft Fabric.
 
-**Tables Silver utilisées :**
+**Tables Silver utilisées dans le Semantic Model :**
 - `controls`
 - `control_executions`
 - `incidents`
 - `remediation_actions`
 - `vendors`
 
-**Tables Gold utilisées (agrégations pré-calculées) :**
+**Tables Gold (agrégations Spark) :**
 - `gold_framework_metrics`
 - `gold_incident_metrics`
 - `gold_vendor_risk`
 - `gold_remediation_metrics`
 
-**💡 Recommandation :** Privilégier les mesures basées sur les tables Gold pour de meilleures performances (Catégorie 0).
-
----
-
-## 🏆 Catégorie 0 : Mesures Optimisées (Tables Gold)
-
-### 0.1 Compliance Rate by Framework (Gold)
-```dax
-Compliance Rate Gold = 
-AVERAGEX(
-    gold_framework_metrics,
-    gold_framework_metrics[compliance_rate]
-) / 100
-```
-
-**Format :** Percentage (0.699 → 69.9%)
-
-### 0.2 Compliance Rate for Selected Framework (Gold)
-```dax
-Compliance Framework Gold = 
-VAR SelectedFramework = SELECTEDVALUE(controls[framework])
-VAR FrameworkRow = 
-    FILTER(
-        gold_framework_metrics,
-        gold_framework_metrics[framework] = SelectedFramework
-    )
-RETURN
-    DIVIDE(
-        SUMX(FrameworkRow, gold_framework_metrics[compliance_rate]),
-        100,
-        0
-    )
-```
-
-### 0.3 Total Framework Controls (Gold)
-```dax
-Total Controls Gold = 
-SUMX(
-    gold_framework_metrics,
-    gold_framework_metrics[total_controls]
-)
-```
-
-### 0.4 Total Framework Executions (Gold)
-```dax
-Total Executions Gold = 
-SUMX(
-    gold_framework_metrics,
-    gold_framework_metrics[total_executions]
-)
-```
-
-### 0.5 Incident Count by Type/Severity (Gold)
-```dax
-Incident Count Gold = 
-SUMX(
-    gold_incident_metrics,
-    gold_incident_metrics[incident_count]
-)
-```
-
-### 0.6 Top Incident Type (Gold)
-```dax
-Top Incident Type Gold = 
-VAR TopRow = 
-    TOPN(
-        1,
-        gold_incident_metrics,
-        gold_incident_metrics[incident_count],
-        DESC
-    )
-RETURN
-    MAXX(TopRow, gold_incident_metrics[incident_type])
-```
-
-### 0.7 Vendor Risk - High Risk Count (Gold)
-```dax
-High Risk Vendors Gold = 
-CALCULATE(
-    COUNTROWS(gold_vendor_risk),
-    gold_vendor_risk[risk_score] > 70
-)
-```
-
-### 0.8 Vendor Risk - Non-Compliant (Gold)
-```dax
-Non-Compliant Vendors Gold = 
-CALCULATE(
-    COUNTROWS(gold_vendor_risk),
-    gold_vendor_risk[compliance_status] = "non_compliant"
-)
-```
-
-### 0.9 Vendor Incident Rate (Gold)
-```dax
-Vendor Incident Rate Gold = 
-AVERAGEX(
-    gold_vendor_risk,
-    gold_vendor_risk[incident_count]
-)
-```
-
-### 0.10 Average Remediation Days (Gold)
-```dax
-Avg Remediation Days Gold = 
-AVERAGEX(
-    FILTER(
-        gold_remediation_metrics,
-        gold_remediation_metrics[status] = "completed"
-    ),
-    gold_remediation_metrics[avg_days_to_complete]
-)
-```
-
-### 0.11 Average Remediation Cost (Gold)
-```dax
-Avg Remediation Cost Gold = 
-AVERAGEX(
-    gold_remediation_metrics,
-    gold_remediation_metrics[avg_cost_usd]
-)
-```
-
-### 0.12 Total Remediation Actions by Status (Gold)
-```dax
-Remediation Actions Gold = 
-SUMX(
-    gold_remediation_metrics,
-    gold_remediation_metrics[action_count]
-)
-```
+**💡 Note :** Les tables Gold sont des agrégations sans colonnes ID et ne peuvent pas être ajoutées au Semantic Model pour créer des relations. Elles restent disponibles dans le Lakehouse pour des requêtes Spark directes ou des notebooks d'analyse. Les mesures DAX ci-dessous utilisent les tables Silver.
 
 ---
 
@@ -750,21 +620,7 @@ Sort by: vendors[risk_score] DESC
 
 Dans le Semantic Model, créer les mesures suivantes (priorité haute) :
 
-**🏆 Must-Have - Tables Gold (12 mesures optimisées) :**
-- [ ] Compliance Rate Gold
-- [ ] Compliance Framework Gold
-- [ ] Total Controls Gold
-- [ ] Total Executions Gold
-- [ ] Incident Count Gold
-- [ ] Top Incident Type Gold
-- [ ] High Risk Vendors Gold
-- [ ] Non-Compliant Vendors Gold
-- [ ] Vendor Incident Rate Gold
-- [ ] Avg Remediation Days Gold
-- [ ] Avg Remediation Cost Gold
-- [ ] Remediation Actions Gold
-
-**Must-Have - Tables Silver (10 mesures) :**
+**Must-Have (10 mesures) :**
 - [ ] Compliance Rate
 - [ ] Compliance Target
 - [ ] Compliance Delta
@@ -788,11 +644,12 @@ Dans le Semantic Model, créer les mesures suivantes (priorité haute) :
 - [ ] Compliance Trend
 - [ ] Incident Volume Trend
 
-**💡 Recommandation :** Commencez par implémenter les mesures Gold pour bénéficier de performances optimales, puis ajoutez les mesures Silver selon vos besoins spécifiques.
+**💡 Note sur les Tables Gold :**  
+Les tables Gold contiennent des agrégations pré-calculées utiles pour les notebooks Spark et les analyses exploratoires, mais ne peuvent pas être utilisées dans le Semantic Model en raison de l'absence de colonnes ID pour les relations. Les mesures DAX ci-dessus utilisent les tables Silver qui supportent les relations nécessaires.
 
 ---
 
 **Auteur :** Microsoft Fabric Demo Team  
-**Version :** 2.0 (avec tables Gold)  
-**Total Mesures :** 40+  
+**Version :** 2.0  
+**Total Mesures :** 30+  
 **Date :** Février 2026
