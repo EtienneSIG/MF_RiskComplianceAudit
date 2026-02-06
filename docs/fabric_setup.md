@@ -210,7 +210,7 @@ incidents_silver = incidents \
 
 remediation_silver = remediation \
     .withColumn("start_date", to_date(col("start_date"))) \
-    .withColumn("due_date", to_date(col("due_date"))) \
+    .withColumn("target_completion_date", to_date(col("target_completion_date"))) \
     .withColumn("completion_date", to_date(col("completion_date")))
 
 vendors_silver = vendors \
