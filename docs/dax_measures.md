@@ -4,20 +4,27 @@
 
 Ce document contient **30+ mesures DAX** pour l'analyse risque, conformité et audit dans le Semantic Model Microsoft Fabric.
 
-**Tables Silver utilisées dans le Semantic Model :**
+**⚠️ IMPORTANT : Utilisation des Tables Silver UNIQUEMENT**
+
+Ce Semantic Model utilise exclusivement les **tables Silver** suivantes :
 - `controls`
 - `control_executions`
 - `incidents`
 - `remediation_actions`
 - `vendors`
 
-**Tables Gold (agrégations Spark) :**
-- `gold_framework_metrics`
-- `gold_incident_metrics`
-- `gold_vendor_risk`
-- `gold_remediation_metrics`
+**Pourquoi Silver et non Gold ?**
+- ✅ Les tables **Silver** contiennent TOUTES les colonnes (y compris les ID : control_id, execution_id, incident_id, etc.)
+- ✅ Les relations entre tables fonctionnent grâce à ces colonnes ID
+- ✅ Les mesures DAX calculent les agrégations à partir des données détaillées
+- ❌ Les tables **Gold** sont des agrégations sans colonnes ID → impossible de créer des relations
+- ❌ Les tables Gold sont utiles pour Spark/SQL, pas pour le Semantic Model Power BI
 
-**💡 Note :** Les tables Gold sont des agrégations sans colonnes ID et ne peuvent pas être ajoutées au Semantic Model pour créer des relations. Elles restent disponibles dans le Lakehouse pour des requêtes Spark directes ou des notebooks d'analyse. Les mesures DAX ci-dessous utilisent les tables Silver.
+**Tables Gold (non utilisées ici) :**
+- `gold_framework_metrics` → Agrégations Spark
+- `gold_incident_metrics` → Agrégations Spark
+- `gold_vendor_risk` → Agrégations Spark
+- `gold_remediation_metrics` → Agrégations Spark
 
 ---
 
@@ -27,26 +34,31 @@ Ce document contient **30+ mesures DAX** pour l'analyse risque, conformité et a
 ```dax
 Total Controls = COUNTROWS(controls)
 ```
+**Table utilisée :** `controls` (Silver)
 
 ### 1.2 Total Executions
 ```dax
 Total Executions = COUNTROWS(control_executions)
 ```
+**Table utilisée :** `control_executions` (Silver)
 
 ### 1.3 Total Incidents
 ```dax
 Total Incidents = COUNTROWS(incidents)
 ```
+**Table utilisée :** `incidents` (Silver)
 
 ### 1.4 Total Remediation Actions
 ```dax
 Total Remediation Actions = COUNTROWS(remediation_actions)
 ```
+**Table utilisée :** `remediation_actions` (Silver)
 
 ### 1.5 Total Vendors
 ```dax
 Total Vendors = COUNTROWS(vendors)
 ```
+**Table utilisée :** `vendors` (Silver)
 
 ---
 
@@ -618,9 +630,9 @@ Sort by: vendors[risk_score] DESC
 
 ## ✅ Checklist d'Implémentation
 
-Dans le Semantic Model, créer les mesures suivantes (priorité haute) :
+Dans le Semantic Model (basé sur les **tables Silver**), créer les mesures suivantes (priorité haute) :
 
-**Must-Have (10 mesures) :**
+**Must-Have (10 mesures essentielles) :**
 - [ ] Compliance Rate
 - [ ] Compliance Target
 - [ ] Compliance Delta
@@ -632,7 +644,7 @@ Dans le Semantic Model, créer les mesures suivantes (priorité haute) :
 - [ ] Audit Readiness Score
 - [ ] Compliance Status
 
-**Nice-to-Have (10 mesures) :**
+**Nice-to-Have (10 mesures supplémentaires) :**
 - [ ] Compliance by Framework
 - [ ] Control Failure Rate
 - [ ] Control Detection Rate
@@ -644,12 +656,41 @@ Dans le Semantic Model, créer les mesures suivantes (priorité haute) :
 - [ ] Compliance Trend
 - [ ] Incident Volume Trend
 
-**💡 Note sur les Tables Gold :**  
-Les tables Gold contiennent des agrégations pré-calculées utiles pour les notebooks Spark et les analyses exploratoires, mais ne peuvent pas être utilisées dans le Semantic Model en raison de l'absence de colonnes ID pour les relations. Les mesures DAX ci-dessus utilisent les tables Silver qui supportent les relations nécessaires.
+**📊 Architecture des Données :**
+
+```mermaid
+graph TB
+    subgraph SEMANTIC["📈 SEMANTIC MODEL (Power BI)"]
+        direction TB
+        SILVER_TABLES["🔷 Tables Silver avec relations via ID:<br/>• controls<br/>• control_executions<br/>• incidents<br/>• remediation_actions<br/>• vendors"]
+        DAX_MEASURES["📊 Mesures DAX:<br/>30+ mesures calculées"]
+        
+        SILVER_TABLES --> DAX_MEASURES
+    end
+    
+    subgraph LAKEHOUSE["📦 LAKEHOUSE (Analyses Spark/SQL)"]
+        direction TB
+        GOLD_TABLES["🏆 Tables Gold (agrégations pré-calculées):<br/>• gold_framework_metrics<br/>• gold_incident_metrics<br/>• gold_vendor_risk<br/>• gold_remediation_metrics"]
+        USAGE["⚙️ Usage:<br/>Notebooks Spark<br/>Requêtes SQL directes"]
+        
+        GOLD_TABLES --> USAGE
+    end
+    
+    style SEMANTIC fill:#e8f5e9
+    style LAKEHOUSE fill:#fff3e0
+    style SILVER_TABLES fill:#4fc3f7
+    style DAX_MEASURES fill:#81c784
+    style GOLD_TABLES fill:#ffd54f
+    style USAGE fill:#ffb74d
+```
+
+**💡 Rappel Important :**  
+- **Semantic Model** = Tables **Silver** + Mesures **DAX** (relations via colonnes ID)
+- **Lakehouse/Spark** = Tables **Gold** (agrégations pré-calculées, pas de relations nécessaires)
 
 ---
 
 **Auteur :** Microsoft Fabric Demo Team  
-**Version :** 2.0  
-**Total Mesures :** 30+  
+**Version :** 2.1 (Silver uniquement pour Semantic Model)  
+**Total Mesures DAX :** 30+  
 **Date :** Février 2026

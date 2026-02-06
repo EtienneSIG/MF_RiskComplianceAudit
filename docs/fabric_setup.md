@@ -11,35 +11,40 @@
 
 ## 🏗️ Architecture Cible
 
-```
-┌─────────────────────────────────────────────────────────┐
-│                    FABRIC WORKSPACE                     │
-├─────────────────────────────────────────────────────────┤
-│                                                         │
-│  ┌──────────────┐      ┌─────────────────────┐        │
-│  │  LAKEHOUSE   │──────│   SEMANTIC MODEL    │        │
-│  │              │      │                     │        │
-│  │  ┌────────┐  │      │  ✓ Relations        │        │
-│  │  │ Bronze │  │      │  ✓ DAX Measures     │        │
-│  │  └────┬───┘  │      │  ✓ RLS (optionnel)  │        │
-│  │       │      │      └──────────┬──────────┘        │
-│  │  ┌────▼───┐  │                 │                   │
-│  │  │ Silver │  │      ┌──────────▼──────────┐        │
-│  │  └────┬───┘  │      │    DATA AGENT       │        │
-│  │       │      │      │                     │        │
-│  │  ┌────▼───┐  │      │  Persona: CCO       │        │
-│  │  │  Gold  │  │      │  + AI Shortcut      │        │
-│  │  └────────┘  │      │    (Text Analysis)  │        │
-│  │              │      └─────────────────────┘        │
-│  │  ┌─────────────────┐                               │
-│  │  │  AI Shortcut    │                               │
-│  │  │  audit_reports_ │                               │
-│  │  │  txt/           │                               │
-│  │  │  incident_desc_ │                               │
-│  │  │  txt/           │                               │
-│  │  └─────────────────┘                               │
-│  └──────────────┘                                     │
-└─────────────────────────────────────────────────────────┘
+```mermaid
+graph TB
+    subgraph WORKSPACE["🏢 FABRIC WORKSPACE"]
+        subgraph LAKEHOUSE["📊 LAKEHOUSE"]
+            BRONZE[("📦 Bronze<br/>CSV Files")]
+            SILVER[("🔷 Silver<br/>Delta Tables")]
+            GOLD[("🏆 Gold<br/>Aggregations")]
+            AI_AUDIT[("📄 AI Shortcut<br/>audit_reports_txt")]
+            AI_INCIDENT[("📄 AI Shortcut<br/>incident_desc_txt")]
+            
+            BRONZE --> SILVER
+            SILVER --> GOLD
+        end
+        
+        subgraph SEMANTIC["📈 SEMANTIC MODEL"]
+            TABLES["✓ Tables Silver<br/>✓ Relations<br/>✓ DAX Measures<br/>✓ RLS (optionnel)"]
+        end
+        
+        subgraph AGENT["🤖 DATA AGENT"]
+            PERSONA["Persona: CCO<br/>+ AI Analysis"]
+        end
+        
+        SILVER -.-> SEMANTIC
+        SEMANTIC --> AGENT
+        AI_AUDIT -.-> AGENT
+        AI_INCIDENT -.-> AGENT
+    end
+    
+    style WORKSPACE fill:#e3f2fd
+    style LAKEHOUSE fill:#fff3e0
+    style SEMANTIC fill:#e8f5e9
+    style AGENT fill:#f3e5f5
+    style SILVER fill:#4fc3f7
+    style GOLD fill:#ffd54f
 ```
 
 ---
@@ -147,18 +152,31 @@ python src/validate_schema.py
 ### 2.3 Créer la Structure de Dossiers
 
 Dans le Lakehouse Explorer (Files) :
-```
-Files/
-├── bronze/
-│   ├── controls.csv
-│   ├── control_executions.csv
-│   ├── incidents.csv
-│   ├── remediation_actions.csv
-│   └── vendors.csv
-├── audit_reports_txt/
-│   └── (100 fichiers .txt)
-└── incident_descriptions_txt/
-    └── (150 fichiers .txt)
+
+```mermaid
+graph TD
+    FILES["📁 Files/"]
+    BRONZE["📁 bronze/"]
+    AUDIT["📁 audit_reports_txt/"]
+    INCIDENT["📁 incident_descriptions_txt/"]
+    
+    FILES --> BRONZE
+    FILES --> AUDIT
+    FILES --> INCIDENT
+    
+    BRONZE --> CSV1["📄 controls.csv"]
+    BRONZE --> CSV2["📄 control_executions.csv"]
+    BRONZE --> CSV3["📄 incidents.csv"]
+    BRONZE --> CSV4["📄 remediation_actions.csv"]
+    BRONZE --> CSV5["📄 vendors.csv"]
+    
+    AUDIT --> TXT1["📄 100 fichiers .txt"]
+    INCIDENT --> TXT2["📄 150 fichiers .txt"]
+    
+    style FILES fill:#e3f2fd
+    style BRONZE fill:#fff3e0
+    style AUDIT fill:#e8f5e9
+    style INCIDENT fill:#f3e5f5
 ```
 
 ---
@@ -208,7 +226,9 @@ Les notebooks de transformation sont déjà créés dans le dossier `notebooks/`
 - remediation_actions
 - vendors
 
-### 4.2 Importer le Notebook Silver → Gold
+### 4.2 Importer le Notebook Silver → Gold (Optionnel)
+
+**⚠️ Important :** Les tables Gold sont optionnelles et servent uniquement pour des analyses Spark/notebooks. Le Semantic Model utilisera exclusivement les tables **Silver** (Étape 5).
 
 1. Dans le workspace Fabric, cliquer **Import** → **Notebook**
 2. Sélectionner le fichier `notebooks/02_silver_to_gold.ipynb`
@@ -218,7 +238,7 @@ Les notebooks de transformation sont déjà créés dans le dossier `notebooks/`
 
 **Ce que fait le notebook :**
 - ✅ Charge les tables Silver depuis le Lakehouse
-- ✅ Crée 4 tables Gold (agrégations métier) :
+- ✅ Crée 4 tables Gold (agrégations pré-calculées pour Spark) :
   - **gold_framework_metrics** : Métriques de conformité par framework
   - **gold_incident_metrics** : Analyse incidents par type/sévérité
   - **gold_vendor_risk** : Analyse de risque vendors
@@ -227,47 +247,115 @@ Les notebooks de transformation sont déjà créés dans le dossier `notebooks/`
 
 **Vérification :** Les 4 tables Gold doivent apparaître dans la section **Tables** du Lakehouse
 
+**💡 Usage des tables Gold :** Ces tables sont utiles pour des requêtes SQL directes ou des notebooks Spark, mais ne seront PAS utilisées dans le Semantic Model (pas de colonnes ID pour les relations).
+
 ---
 
-## 🔗 Étape 5 : Créer le Semantic Model
+## 🔗 Étape 5 : Créer le Semantic Model (Tables Silver uniquement)
 
 ### 5.1 Créer Semantic Model depuis Lakehouse
 
+**⚠️ Important :** Le Semantic Model utilise UNIQUEMENT les **tables Silver** qui contiennent toutes les colonnes ID nécessaires pour créer les relations entre tables.
+
 1. Dans Lakehouse, cliquer **New Semantic Model**
 2. Nom : `Compliance_Model`
-3. Sélectionner tables :
+3. **Sélectionner UNIQUEMENT les tables Silver :**
    - ✅ controls
    - ✅ control_executions
    - ✅ incidents
    - ✅ remediation_actions
    - ✅ vendors
+   - ❌ **NE PAS** sélectionner les tables gold_* (pas de colonnes ID)
 4. Cliquer **Confirm**
 
-**💡 Note :** Les tables Gold sont des agrégations sans colonnes ID, elles ne peuvent pas être utilisées pour les relations dans le Semantic Model. Elles restent disponibles dans le Lakehouse pour des analyses Spark directes.
+**💡 Pourquoi Silver et non Gold ?**
+- Les tables **Silver** contiennent toutes les colonnes (y compris les ID) permettant de créer les relations
+- Les tables **Gold** sont des agrégations sans colonnes ID → impossible de créer des relations
+- Les mesures DAX dans le Semantic Model calculeront les agrégations à partir des tables Silver
 
-### 5.2 Définir les Relations
+### 5.2 Définir les Relations (Tables Silver)
 
 Ouvrir `Compliance_Model` → **Model view**
 
-**Créer relations :**
-```
-controls[control_id] ──(1)──(N)── control_executions[control_id]
-control_executions[execution_id] ──(1)──(N)── incidents[execution_id]
-vendors[vendor_id] ──(1)──(N)── incidents[vendor_id]
-incidents[incident_id] ──(1)──(N)── remediation_actions[incident_id]
+**Créer les relations suivantes entre les tables Silver :**
+
+```mermaid
+erDiagram
+    CONTROLS ||--o{ CONTROL_EXECUTIONS : "control_id"
+    CONTROL_EXECUTIONS ||--o{ INCIDENTS : "execution_id"
+    VENDORS ||--o{ INCIDENTS : "vendor_id"
+    INCIDENTS ||--o{ REMEDIATION_ACTIONS : "incident_id"
+    
+    CONTROLS {
+        string control_id PK
+        string control_name
+        string framework
+        string control_type
+        string criticality
+        string frequency
+        string owner
+    }
+    
+    CONTROL_EXECUTIONS {
+        string execution_id PK
+        string control_id FK
+        date execution_date
+        string status
+        string findings
+        string performed_by
+    }
+    
+    INCIDENTS {
+        string incident_id PK
+        string execution_id FK
+        string vendor_id FK
+        string incident_type
+        string severity
+        date detection_date
+        string status
+        string assigned_to
+    }
+    
+    REMEDIATION_ACTIONS {
+        string remediation_id PK
+        string incident_id FK
+        string action_description
+        string assigned_to
+        date start_date
+        date target_completion_date
+        date completion_date
+        string status
+        float cost_usd
+    }
+    
+    VENDORS {
+        string vendor_id PK
+        string vendor_name
+        string service_type
+        string criticality
+        string compliance_status
+        float annual_spend_usd
+        date last_audit_date
+        float risk_score
+        string country
+    }
 ```
 
 **Paramètres relations :**
-- Cardinalité : Many-to-One
+- Cardinalité : Many-to-One (ou One-to-Many selon le sens)
 - Cross-filter direction : Both (bidirectional)
 
-### 5.3 Ajouter Mesures DAX
+**💡 Note :** Ces relations fonctionnent car les tables Silver contiennent toutes les colonnes ID nécessaires.
+
+### 5.3 Ajouter Mesures DAX (Basées sur Tables Silver)
 
 Ouvrir `Compliance_Model` → **Report view**
 
-Copier-coller les mesures depuis `docs/dax_measures.md` (30+ mesures disponibles)
+**📋 Référence complète :** Voir `docs/dax_measures.md` (30+ mesures DAX disponibles)
 
-**Mesures essentielles :**
+**⚠️ Important :** Toutes les mesures DAX utilisent les **tables Silver** pour bénéficier des relations entre tables. Les agrégations sont calculées par DAX, pas pré-calculées comme dans les tables Gold.
+
+**Mesures essentielles à créer :**
 
 Cliquer sur la table `control_executions` → **New measure**
 
@@ -324,7 +412,7 @@ RETURN
 
 **📋 Voir `docs/dax_measures.md` pour les 30+ mesures complètes**
 
-**💡 Note :** Les tables Gold (`gold_*`) contiennent des agrégations pré-calculées utiles pour les notebooks Spark, mais les mesures DAX du Semantic Model utilisent les tables Silver pour bénéficier des relations entre tables.
+**💡 Rappel :** Toutes les mesures DAX ci-dessus utilisent les tables **Silver** et exploitent les relations entre tables pour calculer les métriques. Les tables Gold ne sont pas utilisées dans le Semantic Model.
 
 ---
 
