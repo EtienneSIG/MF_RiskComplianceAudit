@@ -185,71 +185,47 @@ Files/
 
 ## 🔄 Étape 4 : Transformation Bronze → Silver → Gold
 
-### 4.1 Créer Notebook de Transformation
+### 4.1 Importer le Notebook Bronze → Silver
 
-Dans le Lakehouse, **New Notebook** → Nommer `01_bronze_to_silver`
+Les notebooks de transformation sont déjà créés dans le dossier `notebooks/` du projet.
 
-```python
-# Cell 1: Load Bronze data
-controls = spark.read.csv("Files/bronze/controls.csv", header=True, inferSchema=True)
-executions = spark.read.csv("Files/bronze/control_executions.csv", header=True, inferSchema=True)
-incidents = spark.read.csv("Files/bronze/incidents.csv", header=True, inferSchema=True)
-remediation = spark.read.csv("Files/bronze/remediation_actions.csv", header=True, inferSchema=True)
-vendors = spark.read.csv("Files/bronze/vendors.csv", header=True, inferSchema=True)
+1. Dans le workspace Fabric, cliquer **Import** → **Notebook**
+2. Sélectionner le fichier `notebooks/01_bronze_to_silver.ipynb`
+3. Attendre l'import (quelques secondes)
+4. Ouvrir le notebook importé
+5. **Exécuter toutes les cellules** (bouton **Run all** ou Ctrl+Shift+Enter sur chaque cellule)
 
-# Cell 2: Transform to Silver (typage, nettoyage)
-from pyspark.sql.functions import col, to_date
+**Ce que fait le notebook :**
+- ✅ Charge les 5 fichiers CSV depuis Files/bronze/
+- ✅ Applique les transformations (typage des dates, nettoyage)
+- ✅ Crée les tables Delta Silver dans le Lakehouse
+- ✅ Affiche un aperçu de validation
 
-controls_silver = controls  # Already clean
+**Vérification :** Après exécution, vérifiez que les 5 tables apparaissent dans la section **Tables** du Lakehouse :
+- controls
+- control_executions
+- incidents
+- remediation_actions
+- vendors
 
-executions_silver = executions \
-    .withColumn("execution_date", to_date(col("execution_date")))
+### 4.2 Importer le Notebook Silver → Gold
 
-incidents_silver = incidents \
-    .withColumn("detection_date", to_date(col("detection_date")))
+1. Dans le workspace Fabric, cliquer **Import** → **Notebook**
+2. Sélectionner le fichier `notebooks/02_silver_to_gold.ipynb`
+3. Attendre l'import
+4. Ouvrir le notebook importé
+5. **Exécuter toutes les cellules**
 
-remediation_silver = remediation \
-    .withColumn("start_date", to_date(col("start_date"))) \
-    .withColumn("target_completion_date", to_date(col("target_completion_date"))) \
-    .withColumn("completion_date", to_date(col("completion_date")))
+**Ce que fait le notebook :**
+- ✅ Charge les tables Silver depuis le Lakehouse
+- ✅ Crée 4 tables Gold (agrégations métier) :
+  - **gold_framework_metrics** : Métriques de conformité par framework
+  - **gold_incident_metrics** : Analyse incidents par type/sévérité
+  - **gold_vendor_risk** : Analyse de risque vendors
+  - **gold_remediation_metrics** : Performance des actions correctives
+- ✅ Affiche un résumé des tables créées
 
-vendors_silver = vendors \
-    .withColumn("last_audit_date", to_date(col("last_audit_date"))) \
-    .withColumn("risk_score", col("risk_score").cast("float"))
-
-# Cell 3: Write to Delta Tables (Silver)
-controls_silver.write.mode("overwrite").format("delta").saveAsTable("controls")
-executions_silver.write.mode("overwrite").format("delta").saveAsTable("control_executions")
-incidents_silver.write.mode("overwrite").format("delta").saveAsTable("incidents")
-remediation_silver.write.mode("overwrite").format("delta").saveAsTable("remediation_actions")
-vendors_silver.write.mode("overwrite").format("delta").saveAsTable("vendors")
-
-print("✅ Silver tables created!")
-```
-
-**Exécuter** le notebook → Vérifier tables apparaissent dans **Tables** du Lakehouse
-
-### 4.2 Créer Tables Gold (Agrégations)
-
-**New Notebook** → Nommer `02_silver_to_gold`
-
-```python
-# Cell 1: Create Gold - Compliance Metrics by Framework
-from pyspark.sql.functions import count, avg, sum as spark_sum
-
-framework_metrics = controls_silver.alias("c") \
-    .join(executions_silver.alias("e"), col("c.control_id") == col("e.control_id"), "left") \
-    .groupBy("c.framework") \
-    .agg(
-        count("c.control_id").alias("total_controls"),
-        count("e.execution_id").alias("total_executions"),
-        (spark_sum((col("e.status") == "passed").cast("int")) / count("e.execution_id") * 100).alias("compliance_rate")
-    )
-
-framework_metrics.write.mode("overwrite").format("delta").saveAsTable("gold_framework_metrics")
-
-print("✅ Gold table created: gold_framework_metrics")
-```
+**Vérification :** Les 4 tables Gold doivent apparaître dans la section **Tables** du Lakehouse
 
 ---
 
