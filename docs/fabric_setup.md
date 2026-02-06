@@ -241,6 +241,10 @@ Les notebooks de transformation sont déjà créés dans le dossier `notebooks/`
    - ✅ incidents
    - ✅ remediation_actions
    - ✅ vendors
+   - ✅ gold_framework_metrics
+   - ✅ gold_incident_metrics
+   - ✅ gold_vendor_risk
+   - ✅ gold_remediation_metrics
 4. Cliquer **Confirm**
 
 ### 5.2 Définir les Relations
@@ -261,35 +265,69 @@ incidents[incident_id] ──(1)──(N)── remediation_actions[incident_id]
 
 ### 5.3 Ajouter Mesures DAX
 
-Dans **Report view** → Cliquer table `control_executions` → **New measure**
+Ouvrir `Compliance_Model` → **Report view**
 
-Copier-coller les mesures depuis `docs/dax_measures.md` (30+ mesures disponibles)
+Copier-coller les mesures depuis `docs/dax_measures.md` (40+ mesures disponibles)
 
-**Mesures essentielles :**
+**💡 Recommandation :** Commencez par les **mesures Gold optimisées** (Catégorie 0) pour de meilleures performances.
+
+**Mesures essentielles (Tables Gold) :**
+
+Cliquer sur la table `gold_framework_metrics` → **New measure**
+
 ```dax
-Compliance Rate = 
-DIVIDE(
-    CALCULATE(COUNTROWS(control_executions), control_executions[status] = "passed"),
-    COUNTROWS(control_executions),
-    0
-)
+Compliance Rate Gold = 
+AVERAGEX(
+    gold_framework_metrics,
+    gold_framework_metrics[compliance_rate]
+) / 100
+```
 
+Cliquer sur la table `gold_vendor_risk` → **New measure**
+
+```dax
+High Risk Vendors Gold = 
+CALCULATE(
+    COUNTROWS(gold_vendor_risk),
+    gold_vendor_risk[risk_score] > 70
+)
+```
+
+Cliquer sur la table `gold_remediation_metrics` → **New measure**
+
+```dax
+Avg Remediation Days Gold = 
+AVERAGEX(
+    FILTER(
+        gold_remediation_metrics,
+        gold_remediation_metrics[status] = "completed"
+    ),
+    gold_remediation_metrics[avg_days_to_complete]
+)
+```
+
+**Mesures complémentaires (Tables Silver) :**
+
+Cliquer sur la table `incidents` → **New measure**
+
+```dax
 Open Incidents = 
 CALCULATE(
     COUNTROWS(incidents),
     incidents[status] IN {"open", "investigating"}
 )
+```
 
-MTTR = 
-AVERAGEX(
-    remediation_actions,
-    DATEDIFF(
-        remediation_actions[start_date],
-        remediation_actions[completion_date],
-        DAY
-    )
+```dax
+Critical High Open = 
+CALCULATE(
+    COUNTROWS(incidents),
+    incidents[severity] IN {"critical", "high"},
+    incidents[status] IN {"open", "investigating"}
 )
 ```
+
+**📋 Voir `docs/dax_measures.md` pour les 40+ mesures complètes**
 
 ---
 
